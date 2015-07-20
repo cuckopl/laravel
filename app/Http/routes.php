@@ -10,13 +10,26 @@
   | and give it the controller to call when that URI is requested.
   |
  */
-Route::get('foo', 'FooController@foo');
+
+
+//Route::group(['as' => 'admin::'], function () {
+//    Route::get('dashboard', ['as' => 'dashboard', function () {
+//            // Route named "admin::dashboard"
+//        }]);
+//    Route::get('foo', ['as' => 'ala', function() {
+//            dd(url('ala'));
+//            return 'test routingu';
+//        }]
+//    );
+//});
+
 
 
 Route::model('tasks', 'Task');
 Route::model('projects', 'Project');
 //kolejnośc jest ważna
-Route::get('/', 'ArticlesController@index');
+//Route::get('/', 'HomePageController@index');
+Route::get('/', ['middleware'=>'laravel-middleware' ,'uses'=>'HomePageController@index']);
 
 //Route::get('foo',  function(){
 //    return ' This is foo view';
@@ -41,6 +54,8 @@ Route::controllers([
     'password' => 'Auth\PasswordController',
 ]);
 
+//Home page controller 
+
 
 
 //articles
@@ -52,5 +67,13 @@ Route::controllers([
 
 Route::Resource('articles', 'ArticlesController');
 
+
+//Upload Route
+
+Route::any('media', 'FileUploadController@index');
+Route::any('store-media', 'FileUploadController@storeMedia');
+
+
+Route::any('/products', 'RestController@getProducts');
 
 

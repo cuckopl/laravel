@@ -9,6 +9,11 @@ use App\ArticleComments;
 
 class ArticleCommentsController extends Controller {
 
+/**
+ * get comments ,take 
+ * @param Request $request
+ * @return string
+ */
     public function get(Request $request) {
 
 
@@ -19,7 +24,11 @@ class ArticleCommentsController extends Controller {
         );
         return $render;
     }
-
+/**
+ * 
+ * @param Request $request
+ * @return string
+ */
     public function add(Request $request) {
         if (\Illuminate\Support\Facades\Auth::guest()) {
             return;

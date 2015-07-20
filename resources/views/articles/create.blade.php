@@ -2,18 +2,20 @@
 
 
 @section ('content')
-<h1>Create New Article</h1>
+
 
 <article>
-    {!! Form::Model($article = new App\Article(),['url'=>'articles','files'=> true]) !!}
+    <div class="pos-center">
+        <h1>Create New Article</h1>
+        {!! Form::Model($article = new App\Article(),['url'=>'articles','files'=> true]) !!}
 
-    @include ('articles.partials.article_form',['submitButtonText'=>'Add'])
+        @include ('articles.partials.article_form',['submitButtonText'=>'Add'])
 
 
-    {!! Form::Close() !!}
+        {!! Form::Close() !!}
 
-    @include('errors.list')
-
+        @include('errors.list')
+    </div>
 
 </article>
 @stop

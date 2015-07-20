@@ -5,9 +5,9 @@ namespace App\Http\Controllers;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Article;
-use Illuminate\Http\Request;
 use App\Http\Requests\CreateArticleRequest;
 use Illuminate\Support\Facades\Auth;
+use Request;
 
 class ArticlesController extends Controller {
 
@@ -17,7 +17,8 @@ class ArticlesController extends Controller {
     }
 
     public function index() {
-        $articles = Article::latest('published_at')->published()->paginate(3);
+        $ala=  Request::all();
+        $articles = Article::latest('published_at')->published()->paginate(10);
         return view('articles.index', compact('articles'));
     }
 
@@ -42,7 +43,7 @@ class ArticlesController extends Controller {
      * @return Response
      */
     public function store(CreateArticleRequest $request) {
-
+        $ala=  Request::all();
         $article = Auth::user()->articles()->save(new Article($request->all()));
         $article->tags()->attach($request->input('tag_list'));
 

@@ -1,0 +1,2654 @@
+
+
+/* GOOGLE FONTS */ 
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,400italic,500,300italic,300,100italic,100);
+/* END OF GOOGLE FONTS */
+body {
+    font-family: "Roboto", sans-serif;
+    padding-right: 0 !important;
+    background: #000000;
+    font-size: 1em;
+} 
+
+.img-responsive{
+    max-width: 100%;
+}
+
+article .pos-center{
+    overflow: hidden;
+}
+
+big {
+    font-size:2em;
+}
+
+body,
+input, 
+textarea, 
+select{
+    /*font-family: 'SansationRegular';*/
+    font-size: 0.625em;
+    line-height: 23px;
+    color: #331404;
+}
+
+.pos-center{
+    margin: 0px auto;
+}
+
+.hidden,.dropdown-nav{
+    display: none;
+}
+
+/* body header generals styles */
+body > header{
+    background: #170901;
+    min-height: 76px;
+    border-bottom: 5px solid #FF2626;
+}
+
+.pos-center{
+    width: 80%;
+}
+
+body > header .pos-center{
+    text-align: center;
+}
+
+body > header h1,
+body > header nav{
+    float: left;
+}
+
+body > header h1{
+    margin-top: 10px;
+    margin-right: 55px;
+    width:15%;
+}
+
+body > header h1,
+body > header h1 a{
+    height: 65px;
+}
+
+body > header h1 a{
+    display: block;
+    text-indent: -999em;
+    background: url('http://pcmagicdisc.com/images/WIFI-LOGO.gif') no-repeat center;
+    background-size: 50%;
+
+    width: 100%;
+}
+
+
+/* main menu styles */
+body > header nav{
+    width: 70%;
+}
+ul.menu > li{
+    float: left;
+    position: relative;
+    width:20%;
+}
+
+body > header nav ul li a{
+    display: block;
+    /*font-family: 'MuseoSlab500Regular';*/
+    font-size: 14px;
+    color: #FF2626;
+    text-transform: uppercase;
+}
+
+body > header nav ul.menu > li > a{
+    padding: 35px 35px 0px;
+    height: 41px;
+}
+
+body > header nav ul.menu > li.current-menu-item > a,
+body > header nav ul.menu > li.current-menu-parent > a{
+    background: #FF2626;
+    color: #170901;
+    border-radius: 10px 10px 0 0;
+
+}
+
+body > header nav li > a:hover{
+    -moz-opacity: 0.70;
+    -khtml-opacity: 0.70;
+    opacity: 0.70;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=70);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+}
+
+body > header nav ul.menu > li.current-menu-item > a:hover,
+body > header nav ul.menu > li.current-menu-parent > a:hover{
+    -moz-opacity: 1.00;
+    -khtml-opacity: 1.00;
+    opacity: 1.00;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+}
+
+
+body > header nav ul.menu li:hover .sub-menu{
+    display: block;
+}
+
+body > header nav ul li .sub-menu{
+    background: #170901; 
+    position: absolute;
+    display: none;
+    top: 76px;
+    left: 0px;
+    z-index: 10;
+    width: 288px;
+}
+
+body > header nav .sub-menu li a{
+    display: block;
+    padding-left: 75px;
+    padding-top: 22px;
+    height: 38px;
+    background-position: 12px 5px;
+    background-repeat: no-repeat;
+    margin: 0px 28px;
+    border-bottom: 1px dashed #3e1c09;
+}
+
+body > header nav .sub-menu li.lunch a{
+    background-image: url('../img/submenu-icon-dinner.png');
+}
+
+body > header nav .sub-menu li.breakfast a{
+    background-image: url('../img/submenu-icon-bread.png');
+}
+
+body > header nav .sub-menu li.snacks a{
+    background: url('../img/submenu-icon-snacks.png') 12px 10px no-repeat;
+}
+
+body > header nav .sub-menu li.desserts a{
+    background: url('../img/submenu-icon-desserts.png') 12px 8px no-repeat;
+}
+
+body > header nav .sub-menu li.drinks a{
+    background-image: url('../img/submenu-icon-drinks.png');
+}
+
+body > header nav .sub-menu li.all{
+    margin: 0px;
+}
+
+body > header nav .sub-menu li.all a{
+    background: #FF2626;
+    padding: 5px 0px 0px;
+    height: 26px;
+    color: #230e02;
+    margin: 0px;
+    border: 0px;
+    text-align: center;
+}
+
+body > header nav .sub-menu li.all a span{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url('../img/submenu-icon-all.png') no-repeat;
+    border: 0px;
+    text-indent: -999em;
+    position: relative;
+    top: 2px;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+/* header general styles */
+#header .wooden{
+    /*background: url('../img/top-gfx.jpg') repeat-x;*/
+}
+
+#header .wooden .pos-center{
+    position: relative;
+}
+
+#header .gradient{
+    background:graytext left bottom repeat-x;
+    /*position: relative;*/
+    z-index: 1;
+    width: 80%;
+    margin:0px auto;
+    border-bottom: 1px red solid;
+    height: 10px;
+
+}
+
+#header .gradient .pos-center{
+    background: graytext center bottom no-repeat;
+    width: 80%;
+    height: 1px;
+}
+
+
+/* header caption general styles */
+#header .caption .pos-center{
+    height: 82px;
+    /*font-family: 'MuseoSlab500Regular';*/
+    color: #331404;
+    font-size: 24px;
+}
+
+#header .caption .left{
+    float: left;
+    width: 689px;
+    height: 82px;
+    border-right: 1px dashed #515150;
+    overflow: hidden;
+}
+
+#header .caption .right{
+    float: right;
+    width: 340px;
+    height: 67px; 
+}
+
+#header .caption h2{
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+
+/* header caption search form styles */
+#header .caption form.search{
+    overflow: hidden;
+    margin-top: 26px;
+    float: right;
+    margin-right: 70px;
+}
+
+#header .caption form.search fieldset,
+#header .caption form.search label{
+    float: left;
+}
+
+#header .caption form.search label{
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+#header .caption form.search fieldset{
+    background: #eae9e6;
+    padding-right: 15px;
+    height: 37px;
+    overflow: hidden;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+
+#header .caption form.search input{
+    background: 0;
+    border: 0px;
+    float: left;
+    margin-top: 8px;
+}
+
+#header .caption form.search [type=text]{
+    width: 280px;
+    margin-left: 11px;
+    margin-right: 10px;
+}
+
+#header .caption form.search [type=submit]{
+    background: url('../img/icon-black-loupe.png') no-repeat;
+    width: 21px;
+    height: 21px;
+}
+
+
+/* header caption quotes styles */
+#header .caption{
+    background: #fcfcfa;
+}
+
+#header .caption.quote .pos-center{
+    height: auto;
+    padding-bottom: 25px;
+}
+
+#header .caption blockquote{
+    text-align: center;
+    font-size: 24px;
+    line-height: 32px;
+    /*font-family: 'MuseoSlab500Regular';*/
+    margin: 0 auto;
+    padding-top: 35px;
+}
+
+
+/* header home slider */
+.home-slider .pos-center{
+    height: 660px;
+}
+
+.home-slider .wooden .pos-center{
+    /*background: url('../img/top-gfx.jpg') no-repeat;*/
+}
+
+#header.home-slider .slides{
+    overflow: hidden;
+    height: 690px;
+}
+
+#header.home-slider .item{
+    /*width: 1200px;*/
+}
+
+#header.home-slider .pepers{
+    height: 690px;
+    position: relative;
+}
+
+#header.home-slider .pepers .caption{
+    /*background: url('../img/header-slider-caption-bg.jpg') no-repeat;*/
+    background: transparent;
+    width: 35%;
+    height: 176px;
+    position: absolute;
+    left: 5%;
+    top: 178px;
+    padding-top: 34px;
+    padding-left: 25px;
+    padding-right: 40px;
+}
+
+#header.home-slider .pepers .caption,
+#header.home-slider .pepers .caption a{
+    color: #fff;
+    text-shadow: 2px 1px 1px #000000;
+    filter: dropshadow(color=#000000, offx=2, offy=1);
+}
+
+#header.home-slider .pepers .caption h3{
+    font-size: 36px;
+    margin-bottom: 13px;
+}
+
+#header.home-slider .pepers .caption p{
+    font-size: 15px;
+    line-height: 23.5px;
+    text-align: justify;
+    position: relative;
+}
+
+#header.home-slider .pepers .caption a{
+    background: red;
+    position: absolute;
+    right: 0px;
+    display: block;
+    border: 1px dashed #fff;
+    padding: 6px 16px;
+    text-transform: uppercase;   
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 9px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 1px 1px 9px rgba(0, 0, 0, 1);
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 1);
+    -moz-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+
+#header.home-slider .pepers img{
+    position: absolute;
+    margin: auto 0px;
+    right: 5%;
+    max-width: 50%;
+    top: 0px;
+}
+
+#header.home-slider .pagination{
+    position: absolute;
+    width: 162px;
+    height: 30px;
+    bottom: 0px;
+    left: 42%;
+    background: white;
+    border-radius: 20px 20px 0px 0px;
+    /*background: url('../img/slider-pagination-bg.png') no-repeat;*/
+}
+
+#header.home-slider .pagination ul{
+    width: 157px;
+    text-align: center;
+    margin-top: 9px;
+    margin-left: 5px;
+}
+
+#header.home-slider .pagination ul li{
+    display: inline;
+    margin-right: 5px;
+}
+
+#header.home-slider .pagination ul li a{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #3c1908;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-indent: -999em;
+}
+
+#header.home-slider .pagination ul li.selected a,
+#header.home-slider .pagination ul li:hover a{
+    background: #FF2626;
+}
+
+/* entry header styles*/
+#header.entry .wooden .pos-center{
+    height: 220px;
+}
+
+#header.entry .wooden header{
+    width: 470px;
+    overflow: hidden;
+    color: #fff;
+    padding-top: 50px;
+}
+
+#header.entry .wooden h3{
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 41px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #fff;
+}
+
+#header.entry .wooden span{
+    float: left;
+    margin-top: -3px;
+}
+
+#header.entry .wooden ul{
+    float: right;
+}
+
+/* entry caption */
+#header.entry .caption{
+    height: 68px;
+}
+
+#header.entry .caption .pos-center{
+}
+
+#header.entry .caption .right{
+    width: 350px;
+}
+
+
+/* header entry breadcrumbs */
+#header.entry .breadcrumbs{
+    font-size: 14px;
+    padding-left: 50px;
+    padding-top: 22px;
+    height: 46px;
+    width: 639px;
+}
+
+#header.entry .breadcrumbs a:hover{
+    text-decoration: underline;
+}
+
+#header.entry .breadcrumbs span{
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background: #000000;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: relative;
+    margin: 0px 5px;
+    top: -3px;
+}
+
+/* entry search form */
+#header.entry .caption form.search{
+    float: left;
+    overflow: hidden;
+    margin-top: 21px;
+    margin-right: 0px;
+    margin-left: 35px;
+}
+
+#header.entry .caption form.search label{
+    margin-top: 2px;
+    margin-right: 20px;
+    font-size: 19px;
+}
+
+#header.entry .caption form.search fieldset{
+    padding-right: 10px;
+    height: 29px;
+}
+
+#header.entry .caption form.search [type=text]{
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 12px;
+    margin-right: 10px;
+}
+
+#header.entry .caption form.search [type=submit]{
+    background: url('../img/icon-black-loupe-small.png') no-repeat;
+    width: 17px;
+    height: 17px;
+}
+
+/* recipes archive header slider */
+#header.recipes-archive .wooden .pos-center{
+    height: 240px;
+    overflow: hidden;
+}
+
+#header.recipes-archive .wooden .slides,
+#header.recipes-archive .wooden .slides .item{
+    height: 240px;
+    width: 728px;
+    position: relative;
+}
+
+#header.recipes-archive .wooden .slides .item > div{
+    width: 365px;
+    color: #fff;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 75px;
+}
+
+#header.recipes-archive .wooden .slides .item img{
+    position: absolute;
+    bottom: 0px;
+}
+
+#header.recipes-archive .wooden .slides .item h3{
+    font-size: 28px;
+    line-height: 32px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #fff;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#header.recipes-archive .wooden .slides .item ul{
+    float: right;
+}
+
+#header.recipes-archive .wooden .slides .item span{
+    display: block;
+    float: left;
+    margin-top: -3px;
+}
+
+
+/* recipes archive header categories */
+#header.recipes-archive .categories{
+    background: #170901;
+}
+
+#header.recipes-archive .categories .pos-center{
+    height: 185px;
+    padding-top: 35px;
+}
+
+#header.recipes-archive .categories ul{
+    overflow: hidden;
+}
+
+#header.recipes-archive .categories ul li{
+    float: left;
+}
+
+#header.recipes-archive .categories ul li a{
+    display: block;
+    height: 20px;
+    padding-top: 108px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-right: 100px;
+}
+
+#header.recipes-archive .categories ul li.last a{
+    margin-right: 0px;
+}
+
+#header.recipes-archive .categories ul li .dinner{
+    background-image: url('../img/icon-spaghetti-brown.png');
+    width: 93px;
+}
+
+#header.recipes-archive .categories ul li .breakfast{
+    background-image: url('../img/icon-bread-brown.png');
+    width: 91px;
+}
+
+#header.recipes-archive .categories ul li .snacks{
+    background-image: url('../img/icon-fruits-brown.png');
+    width: 87px;
+}
+
+#header.recipes-archive .categories ul li .desserts{
+    background-image: url('../img/icon-cake-brown.png');
+    width: 74px;
+    margin-right: 75px;
+}
+
+#header.recipes-archive .categories ul li .drinks{
+    background-image: url('../img/icon-drink-brown.png');
+    width: 150px;
+}
+
+/* recipes archive fridge submenu form */
+#header .fridge-form{
+    position: relative;
+    text-align: center; 
+}
+
+#header .fridge-form > a{
+    background: url('../img/icon-black-arrowd.png') 285px 31px no-repeat;
+    padding-right: 40px;
+    display: inline-block;
+    display: block;
+    padding-top: 30px;
+    height: 52px;
+}
+
+#header .fridge-form:hover > a{
+    background: #F55B0C url('../img/icon-orange-arrowu.png') 285px 31px no-repeat;
+}
+
+#header .fridge-form .submenu{
+    display: none;
+    position: absolute;
+    z-index: 99999;
+    background: #FF2626;
+    padding: 25px 17px;
+    left: -695px;
+    top: 82px;
+    width: 1001px;
+    font-size: 14px;
+    color: #fff;
+    /*font-family: 'SansationRegular';*/
+}
+
+#header .fridge-form:hover .submenu{
+    display: block;
+}
+
+#header .fridge-form .submenu label{
+    cursor: pointer;
+}
+
+#header .fridge-form .submenu .jqTransformCheckbox{
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+}
+
+#header .fridge-form .submenu > div{
+    overflow: hidden;
+}
+
+#header .fridge-form .submenu .first{
+    border-bottom: 1px dashed #fff;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    overflow: hidden;
+}
+
+#header .fridge-form .submenu ul li{
+    float: left;
+    width: 110px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+#header .fridge-form .submenu .second{
+    margin-left: 50px;
+    overflow: hidden;
+}
+
+
+#header .fridge-form .submenu .section{
+    float: left;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+#header .fridge-form .submenu .section h3{
+    /*font-family: 'SansationRegular';*/
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+#header .fridge-form .submenu .vegetables{
+    width: 230px;
+}
+
+#header .fridge-form .submenu .meat{
+    width: 115px;
+}
+
+#header .fridge-form .submenu .fish{
+    width: 115px;
+}
+
+#header .fridge-form .submenu .fruits{
+    width: 230px;
+}
+
+#header .fridge-form .submenu .other{
+    width: 230px;
+}
+
+#header .fridge-form .submenu button{
+    font-size: 24px;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 6px 16px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: 0;
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+#header .fridge-form .submenu button:hover{
+    color: #F55B0C;
+    border: 2px solid #F55B0C;
+    background: #fff;
+}
+
+
+/* restaurants archive header styles */
+#header .caption.restaurant form{
+    display: block;
+    margin: 0 auto;
+    padding-top: 22px;
+    float: none;
+    width: 585px;
+}
+
+#header #map{
+    height: 460px;
+}
+
+
+
+
+/* content styles */
+.content{
+    position: relative;
+    z-index: 1;
+    background: #f5f5f5;
+    padding-bottom: 30px;
+}
+
+.content .pos-center{
+    overflow: hidden;
+}
+
+.content .left{
+    float: left;
+    width: 695px;
+}
+
+.content .left > .wrapper{
+    overflow: hidden;
+    background: #fdfcfc;
+    border-left: 1px dashed #cecece;
+    border-right: 1px dashed #cecece;
+}
+
+.content .right{
+    width: 345px;
+    float: right;
+    overflow: hidden;
+}
+
+/* content pagination */
+.content .pagination{
+    overflow: hidden;
+    padding: 30px 0px;
+    background: url('../img/top-caption-grad-patt.png') left top repeat-x;
+}
+
+.content .pagination ul{
+    display: block;
+    text-align: center;
+}
+
+.content .pagination ul li{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.content .pagination ul li:hover a,
+.content .pagination ul li span{
+    background: #FF2626;
+}
+
+.content .pagination ul li a{
+    background: #000;
+}
+
+.content .pagination ul li a,
+.content .pagination ul li span{
+    color: #fff;
+    text-align: center;
+    display: block;
+    /*font-family: 'MuseoSlab500Regular';*/
+    font-size: 16px;
+    padding-top: 3px;
+    height: 25px;
+    width: 28px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+/* content elements styles */
+.content .search-results{
+    background: #FF2626;
+    font-size: 24px;
+    color: #fff;
+    padding-left: 80px;
+    padding-top: 40px;
+    height: 60px;
+}
+
+.content .entry .more{
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url('../img/icon-orange-dots.png');
+    text-indent: 9999em;
+    position: absolute;
+    left: 50%;
+    margin-left: -12px;
+    bottom: 30px;
+}
+
+.content h4.no-entries{
+    padding-top: 20px;
+    padding-bottom: 35px;
+    padding-left: 50px;
+    font-size: 28px;
+}
+
+
+/* footer styles */
+footer{
+    border-top: 5px solid #FF2626;
+    color: #fcfcfa;
+}
+
+footer .pos-center{
+    padding: 45px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+footer.boxes .pos-center{
+    overflow: hidden;
+}
+
+footer .flyer{
+    position: absolute;
+    width: 24px;
+    height: 12px;
+    background: url('../img/food-fight-triangle.png') no-repeat;
+    top: 0px;
+    left: 50%;
+    margin-left: -12px;
+}
+
+footer section{
+    float: left;
+    overflow: hidden;
+}
+
+footer .menu{
+    /*background: url('../img/icon-bread-white.png') left 30px no-repeat;*/
+    padding-left: 93px;
+    width: 493px;
+    max-height: 155px;
+}
+
+footer .menu ul{
+    border-right: 1px dashed #474747;
+    padding: 20px 30px 20px 0px;
+    margin-left: 30px;
+    float: left;
+}
+
+footer .tag-cloud{
+    width: 244px;
+    min-height: 123px;
+    margin-top: 21px;
+    margin-left: 70px;
+    padding-left: 110px;
+    /*font-family: 'MuseoSlab500Regular';*/
+    text-transform: uppercase;
+}
+
+.tag-cloud a:hover{
+    text-decoration: underline;
+}
+
+footer.boxes section{
+    width: 230px;
+    height: 170px;
+    padding-top: 120px;
+    color: #fff;
+}
+
+footer.boxes .spaghetti{
+    background: url('../img/icon-spaghetti-white.png') center top no-repeat;
+    margin-right: 65px;
+}
+
+footer.boxes .bread{
+    background: url('../img/icon-bread-white.png') center top no-repeat;
+    border-left: 1px dashed #474747;
+    border-right: 1px dashed #474747;
+    padding: 120px 62px 0px;
+}
+
+footer.boxes .dinner{
+    background: url('../img/icon-dinner-white.png') center top no-repeat;
+    padding-left: 65px;
+}
+
+footer.boxes section h2{
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+
+/* home page styles */
+#home.content{
+    padding-bottom: 0px;
+}
+
+#home header{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#home header h2{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+#home header h4{
+    font-size: 20px;
+}
+
+
+#home .boxes{
+    background: #fff;
+    padding: 30px 0px;
+}
+
+#home .boxes .pos-center{
+    overflow: hidden;
+}
+
+#home .boxes .box{
+    float: left;
+    width: 30%;
+    padding-bottom: 80px;
+    padding: 1%;
+    /*    border-left:#E2DFDE 1px dashed ;
+        border-right:#E2DFDE 1px dashed;*/
+    margin-top: 80px;
+    /*margin:0.3%;*/
+}
+#home .boxes .box .step1{
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#home .boxes .box:first-child{
+    float: left;
+    padding-bottom: 80px;
+    /*padding-left:2%;*/
+}
+
+#home .boxes .box h2{
+    height: 50px;
+    color: #331404;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+
+#home .boxes .box .step1{
+    padding-top: 158px;
+}
+
+#home .boxes .box.first .step1{
+    background: url('http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/96/Places-network-server-database-icon.png') center 36px no-repeat;
+}
+
+#home .boxes .box.second .step1{
+    background: url('http://icons.iconarchive.com/icons/sirubico/black-metal/96/PC-a-icon.png') center 36px no-repeat;
+}
+
+#home .boxes .box.third .step1{
+    background: url('http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/96/Places-certificate-server-icon.png') center 36px no-repeat;
+}
+
+#home .boxes .box .step2{
+    padding-top: 52px;
+}
+
+
+#home .boxes .box .step2 h2{
+    margin-bottom: 43px;
+}
+
+#home .boxes .box .step2 > a{
+    display: inline-block;
+    margin-top: 25px;
+    height: 24px;
+    padding-right: 37px;
+    background: url('../img/icon-orange-arrowr.png') right center no-repeat;
+    text-transform: uppercase;
+    color: #331404;
+}
+
+#home .food-fight .pos-center{
+    position: relative;
+    height: 465px;
+    overflow: visible;
+}
+
+#home .food-fight{
+    background: #000 url('http://icons.iconarchive.com/icons/custom-icon-design/flatastic-9/512/Line-chart-icon.png') center bottom no-repeat;
+    background-size: 15%;
+    border-top: 5px solid #FF2626;
+    border-bottom: 5px solid #FF2626;
+}
+
+#home .food-fight header{
+    position: absolute;
+    top: 75px;
+    left: 42%;
+}
+
+#home .food-fight header h2{
+    color: #fff;
+}
+
+#home .food-fight header h4{
+    color: #7a7a7a;
+    font-size: 16px;
+}
+
+#home .inspirations{
+    background: #fcfcfa  left bottom repeat-x;
+
+}
+
+#home .inspirations .pos-center{
+    padding: 50px 0px;
+    overflow: visible;
+}
+
+#home .inspirations header{
+    margin-bottom: 66px;
+    text-align: center;
+}
+
+#home .inspirations header h2{
+    color: #331404;
+}
+
+#home .inspirations header h4{
+    color: #9c8d84;
+}
+
+#home .inspirations .slider{
+    position: relative;
+    text-align: center;
+}
+
+#home .inspirations .slider .slides-container{
+
+    /**/
+    margin: 0px auto;
+    /*background: url('../img/inspirations-slider-grads.png') center top no-repeat;*/
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+
+}
+
+.inspirations .items > div a {
+    display: block;
+}
+
+.inspirations .items > div a > img {
+    max-width: 100%;
+    height: 150px;
+}
+
+#home .inspirations .slider .slides-container .items{
+    margin-left: 25px;
+    margin-top: 10px;
+    overflow: hidden;
+    margin-left: 6%;
+
+}
+
+#home .inspirations .slider .slides-container .items > div{
+    float: left;
+    margin-left: 3%;
+    width: 25%;
+    color: #331404;
+    padding: 0px 18px;
+    height: 350px;
+    position: relative;
+}
+
+#home .inspirations .slider .slides-container .items > div h2{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#home .inspirations .slider .slides-container .items > div > .more{
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 24px;
+    background: #FF2626 no-repeat;
+    border-radius: 10px 0 10px 0;
+    /*text-indent: -999em;*/
+    position: absolute;
+    color:white;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -12px;
+}
+
+#home .inspirations .slider > a{
+    display: block;
+    position: absolute;
+    width: 52px;
+    height: 55px;
+    top: 40px;
+    z-index: 1;
+    text-indent: -999em;
+    cursor: pointer;
+}
+
+#home .inspirations .slider > a.prev{
+    background: url('../img/slider-left-arr.png') no-repeat;
+    left: -7px;
+}
+
+#home .inspirations .slider > a.next{
+    background: url('../img/slider-right-arr.png') no-repeat;
+    right: -8px;
+}
+
+
+#home .comments{
+    background: #ffffff;
+}
+
+#home .comments .pos-center{
+    padding: 50px 0px;
+    overflow: visible;
+
+}
+
+#home .comments header{ 
+    margin-bottom: 50px;
+}
+
+#home .comments header h2{
+    color: #331404;
+}
+
+#home .comments header h4{
+    color: #9d8f87;
+}
+
+#home .comments .container{
+    position: relative;
+    background: #fff;
+    border: 1px solid #e7e6e6;
+    -webkit-box-shadow: 0 0px 2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 2px rgba(0, 0, 0, 0.1);
+}
+
+#home .comments .container .flyer{
+    position: absolute;
+    display: block;
+    left: 50%;
+    top:-24px;
+    width: 0; 
+    height: 0; 
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid #FF2626 ;
+    text-indent:-999em;
+    z-index: 1;
+}
+
+#home .comments .container section{
+    float: left;
+    width: 33.3333333%;
+    position: relative;
+    height: 189px;
+}
+
+#home .comments .container > section{
+
+}
+
+
+
+#home .comments .container section header{
+/*    font-family: 'MuseoSlab500Regular';*/
+    color: #fff;
+    font-size: 16px;
+    text-transform: none;
+    text-align: left;
+    line-height: 16px;
+    margin-bottom: 35px;
+    background: #FF2626;
+    padding: 14px 0px;
+    height: 32px;
+}
+
+#home .comments .container section header,
+#home .comments .container section blockquote{
+    padding-left: 80px;
+    padding-right: 15px;
+}
+
+#home .comments .container section.first header,
+#home .comments .container section.first blockquote{
+    /*padding-left: 54px;*/
+
+}
+
+
+
+#home .comments .container section header small{
+    display: block;
+    font-size: 14px; 
+}
+
+#home .comments .container section img{
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    max-width: 15%;
+    max-height: 50%;
+    left: 0px;
+    top: 15px;
+}
+
+#home .comments .container section blockquote{
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+
+/* entry content */
+#entry .left{
+    background: #fdfcfc;
+    padding: 50px 50px 60px;
+    padding-bottom: 60px;
+    width: 590px;
+    overflow: hidden;
+}
+
+#entry .left h1{
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+
+#entry .left .main-pic{
+    display: block;
+    margin-left: -50px;
+    margin-top: -50px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+}
+
+#entry .left > p{
+    margin-bottom: 25px;
+}
+
+#entry .left h2{
+    font-size: 28px;
+    color: #000000;
+}
+
+#entry .left h3{
+    font-size: 19px;
+    color: #bcbcbc;
+}
+
+#entry .left header{
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+#entry .left img{
+    margin-right: 6px;
+}
+
+#entry .left img:last-child,
+#entry .left img.last{
+    margin-right: 0px;
+}
+
+#entry .left header .print{
+    display:  block;
+    width: 36px;
+    height: 31px;
+    background: url('../img/icon-print-big.png') no-repeat;
+    text-indent: -9999em;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    right: 0px;
+}
+
+#entry .left ul.recipe li{
+    position: relative;
+    padding-left: 64px;
+    margin-bottom: 18px;
+}
+
+#entry .left ul.recipe li span{
+    display: block;
+    height: 30px;
+    padding-left: 13px;
+    padding-top: 8px;
+    width: 25px;
+    background: #000000;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    color: #fff;
+/*    font-family: 'MuseoSlab500Regular';*/
+    font-size: 24px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+#entry .left form{
+    overflow: hidden;
+}
+
+#entry .left form input,
+#entry .left form textarea{
+    padding: 15px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: #a2a1a1;
+    text-shadow: 1px 1px 1px #ffffff;
+    filter: dropshadow(color=#ffffff, offx=1, offy=1);
+    background: #f1f0f0;
+    border: 0;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    resize: none;
+}
+
+#entry .left form input{
+    width: 263px;
+    display: block;
+    margin-bottom: 6px;
+}
+
+#entry .left form textarea{
+    width: 560px;
+    height: 170px;
+}
+
+#entry .left form button{
+    border: 0;
+    background: url('../img/icon-orange-arrowr.png') right center no-repeat;
+    padding-right: 33px;
+    margin-top: 12px;
+    height: 24px;
+    color: #000000;
+/*    font-family: 'MuseoSlab500Regular';*/
+    font-size: 15.5px;
+    float: right;
+    cursor: pointer;
+}
+
+#entry .right{
+    width: 350px;
+}
+
+#entry .right .map{
+    width: 394px; 
+    height: 431px;
+}
+
+#entry .right .overview{
+    background: #FF2626;
+    padding: 37px 0px; 
+}
+
+#entry .right .overview.restaurant{
+    background: #d70586;
+}
+
+#entry .right .overview > div{
+    height: 37px;
+    padding-top: 16px;
+    width: 240px;
+    padding-left: 10px;
+    color: #fff;
+/*    font-family: 'MuseoSlab500Regular';*/
+    font-size: 26px;
+    margin-left: 58px;
+    overflow: hidden;
+}
+
+#entry .right .overview .difficulty ul{
+    float: right;
+}
+
+#entry .right .overview .middle{
+    border-top: 1px dashed #fff;
+    border-bottom: 1px dashed #fff;
+}
+
+#entry .right .overview .time{
+    background: url('../img/icon-timer.png') right center no-repeat;
+}
+
+#entry .right .overview .diet{
+    background: url('../img/icon-diet.png') right center no-repeat;
+}
+
+#entry .right .ingredients{
+    background: #000000;
+    color: #fff;
+    padding-bottom: 35px;
+    overflow: hidden;
+    position: relative;
+}
+
+#entry .right .ingredients h2{
+/*    font-family: 'MuseoSlab500Regular';*/
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+#entry .right .ingredients .print{
+    position: absolute;
+    display: block;
+    width: 23px;
+    height: 20px;
+    background: url('../img/icon-print-small-white.png') no-repeat;
+    text-indent: -999em;
+    top: 35px;
+    right: 70px;
+}
+
+#entry .right .ingredients ul li{
+    overflow: hidden;
+    padding: 4px 70px 0px 100px;
+    height: 26px;
+    background-position: 60px center;
+    background-repeat: no-repeat;
+}
+
+#entry .right .ingredients ul li.chicken{
+    background-image: url('../img/icon-small-chicken-white.png');
+}
+
+#entry .right .ingredients ul li.soup{
+    background-image: url('../img/icon-small-soup-white.png');
+}
+
+#entry .right .ingredients ul li.cake{
+    background-image: url('../img/icon-small-cake-white.png');
+}
+
+#entry .right .ingredients ul li.fish{
+    background-image: url('../img/icon-small-fish-white.png');
+}
+
+#entry .right .ingredients ul li span{
+    float: right;
+}
+
+
+/* recipes archive content */
+#recipes .entry{
+    float: left;
+    width: 316px;
+    padding: 40px 15px 0px 15px;
+    height: 395px;
+    background: url('../img/top-caption-grad-patt.png') left bottom repeat-x;
+    position: relative;
+}
+
+#recipes .entry.last{
+    background: 0;
+    height: 385px;
+}
+
+#recipes .entry h2{
+    font-size: 20px;
+    color: #331404;
+    margin-top: 30px;
+}
+
+#recipes .entry div{
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+#recipes .entry div span{
+    background: #FF2626;
+    color: #fcfcfa;
+    padding: 2px 8px 0px;
+    display: block;
+    float: left;
+}
+
+#recipes .entry div .difficulty{
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#recipes .entry p{
+    margin-top: 20px;
+}
+
+
+/* restaurants archive content */
+#restaurants .wrapper{
+    padding: 0 15px;
+    padding-top: 25px;
+    border: 0px;
+}
+
+#restaurants .wrapper .entry{
+    border-bottom: 1px dashed #e2dfde;
+    padding-top: 23px;
+    padding-bottom: 75px;
+    overflow: hidden;
+    position: relative;
+}
+
+#restaurants .wrapper .entry.last{
+    border-bottom: 0px;
+}
+
+#restaurants .wrapper .entry img,
+#restaurants .wrapper .entry .description{
+    float: left;
+}
+
+#restaurants .wrapper .entry img{
+    margin-right: 13px;
+}
+
+
+#restaurants .wrapper .entry .description{
+    width: 410px;
+    margin-top: 10px;
+}
+
+#restaurants .wrapper .entry .description.width{
+    width: auto;
+    margin-top: 0px;
+}
+
+#restaurants .wrapper .entry .description h2{
+    font-size: 28.5px;
+    color: #331404;
+    margin-bottom: 15px;
+}
+
+#restaurants .wrapper .entry .description > div{
+    overflow: hidden;
+}
+
+#restaurants .wrapper .entry .description > div > a,
+#restaurants .wrapper .entry .description > div > ul{
+    display: block;
+    float: left;
+}
+
+#restaurants .wrapper .entry .description > div > a{
+    min-width: 123px;
+    background: #FF2626;
+    color: #fff;
+    margin: 0 5px 5px 0px;
+    padding: 0 5px;
+    text-align: center;
+}
+
+#restaurants .wrapper .entry .description ul.difficulty{
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+#restaurants .wrapper .entry .description p{
+    margin-top: 25px;
+}
+
+#restaurants .pagination{
+    background: 0;
+}
+
+
+
+/* comment respond styles */
+#respond #cancel-comment-reply-link{
+    font-size: 13px;
+    font-style: italic;
+}
+
+#respond .login-to-comment{
+    margin-top: -15px;
+}
+
+#respond .login-to-comment a{
+    text-decoration: underline;
+}
+
+#respond .logged-in-as{
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+
+/* post comments styles */
+.comments-list .no-comments{
+    margin-bottom: -40px;
+}
+
+.comments-list .comment{
+    position: relative;
+    padding-left: 37px;
+}
+
+.comments-list .inner{
+    border: 1px solid #e7e6e6;    
+    margin-bottom: 35px;
+    background: #fff;
+    -webkit-box-shadow: 0 0px 2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 2px rgba(0, 0, 0, 0.1);
+}
+
+.comments-list .inner img{
+    position: absolute;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    left: 0px;
+    top: -10px;
+}
+
+.comments-list .inner h4,
+.comments-list .inner p,
+.comments-list .inner .comment-awaiting-moderation{
+    padding-left: 50px;
+    padding-right: 25px;
+}
+
+.comments-list .inner h4{
+    overflow: hidden;
+    color: #fff;
+    height: 25px;
+    padding-top: 3px;
+    margin: 0px -1px 0px -1px;
+}
+
+.comments-list .inner h4{
+    background: #FF2626;
+}
+
+.comments-list .parent .comment .inner h4,
+.comments-list .children .inner h4{
+    background: #bcbcbc;
+}
+
+.comments-list .inner h4 a{
+    float: right;
+    display: block;
+    text-transform: uppercase;
+    padding-right: 26px;
+    background: url('../img/icon-reply.png') right center no-repeat;
+}
+
+.comments-list .inner p{
+    padding-top: 29px;
+    padding-bottom: 38px;
+    font-style: italic;
+    margin: 0px;
+}
+
+.comments-list .inner .comment-awaiting-moderation{
+    display: block;
+    font-size: 12.5px;
+    opacity: 0.6;
+    background: #000000;
+    color: #fff;
+    text-align: right;
+}
+
+.comments-navi{
+    overflow: hidden;
+    margin-top: -10px;
+    padding-left: 39px;
+    padding-right: 2px;
+}
+
+.comments-navi > div{
+    float: left;
+    width: 50%;
+    min-height: 1px;
+}
+
+.comments-navi .prev{
+    text-align: left;
+}
+
+.comments-navi .next{
+    text-align: right;
+}
+
+
+/* rating styles */
+ul.difficulty{
+    overflow: hidden;
+}
+
+ul.difficulty li{
+    width: 14px;
+    height: 14px;
+    background: url('../img/icon-difficulty-empty.png') center center no-repeat;
+    margin-right: 3px;
+    display: block;
+    float: left;
+    text-indent: -999em;
+}
+
+ul.difficulty li.active{
+    background: url('../img/icon-difficulty-filled.png') center center no-repeat;
+}
+
+ul.difficulty.dark li{
+    background: url("../img/icon-difficulty-empty-dark.png") no-repeat center center;
+}
+
+ul.difficulty.dark li.active{
+    background: url("../img/icon-difficulty-fill-dark.png") no-repeat center center;
+}
+
+ul.difficulty.big li{
+    width: 24px;
+    height: 26px;
+    background: url('../img/icon-difficulty-big-empty.png') no-repeat;
+}
+
+ul.difficulty.big li.active{
+    width: 24px;
+    height: 26px;
+    background: url('../img/icon-difficulty-big-filled.png') no-repeat;
+}
+
+
+/* icons lists styles */
+ul.icons-list li{
+    padding-left: 37px;
+    margin-bottom: 7px;
+}
+
+ul.icons-list li.chicken{
+    background: url('../img/icon-small-chicken.png') left center no-repeat;
+}
+
+ul.icons-list li.soup{
+    background: url('../img/icon-small-soup.png') left center no-repeat;
+}
+
+ul.icons-list li.fish{
+    background: url('../img/icon-small-fish.png') left center no-repeat;
+}
+
+ul.icons-list li.cake{
+    background: url('../img/icon-small-cake.png') left center no-repeat;
+}
+
+ul.icons-list li.waiter{
+    background: url('../img/icon-small-waiter.png') left center no-repeat;
+}
+
+
+/* taxonomy page styles */
+.taxonomy-desc{
+    border-bottom: 1px dashed #E2DFDE; 
+    padding-bottom: 15px;
+}
+
+.taxonomy-desc h2{
+    font-size: 24px; 
+    margin-bottom: 10px;
+}
+
+.taxonomy-desc p{
+    font-style: italic;
+}
+
+/* error page styles */
+.error404 .content{
+    top: 0px;
+}
+
+.error404 footer{
+    margin-top: 0px;
+}
+
+.error404 .wrapper{
+    overflow: hidden;
+    padding-top: 180px;
+    padding-bottom: 200px;
+}
+
+.error404 .code{
+    font-size: 99px;
+    line-height: 120px;
+    float: left;
+}
+
+.error404 .message{
+    margin-left: 30px;
+    padding-left: 30px;
+    border-left: 1px solid #000000;
+    float: right;
+    width: 790px;
+}
+
+.error404 .message h2{
+    font-size: 49px;
+    line-height: 52px;
+    margin-bottom: 10px;
+}
+
+.error404 .message a{
+    color: #6494c5;
+}
+
+.error404 .message a:hover{
+    text-decoration: underline;
+}
+
+
+/* widgets styles */
+.widget{
+    width: 290px;
+    margin-left: 55px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.widget h2,
+.widget h4{
+    text-shadow: 1px 1px 0px #ffffff;
+    filter: dropshadow(color=#ffffff, offx=1, offy=1);
+}
+
+
+.widget h2{
+    font-size: 25px;
+    color: #331404;
+}
+
+
+.widget h4{
+    font-size: 16px;
+    color: #bcbcbc;
+    margin-bottom: 35px;
+}
+
+
+/* custom widgets styles */
+.widget.kitchen-ingr{
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+
+.widget.kitchen-ingr ul{
+    float: left;
+}
+
+.widget.kitchen-ingr .ingredients{
+    width: 123px;
+    margin-right: 10px;
+}
+
+.widget.comments section{
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.widget.comments section.last{
+    margin-bottom: 0px;
+}
+
+.widget.comments section header{
+    margin-bottom: 20px;
+/*    font-family: 'MuseoSlab500Regular';*/
+    font-size: 16px;
+    color: #170901;
+}
+
+.widget.comments section header small{
+    display: block;
+    color: #858585;
+    font-size: 14px;
+}
+
+.widget.comments section img{
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    left: -80px;
+    top: -10px
+}
+
+.widget.comments section blockquote{
+    font-style: italic;
+}
+
+.vs-image,.vs-small{
+    display: none;   
+}
+
+
+
+/*BLOG CSS*/ 
+
+
+#articles {
+
+}
+#articles header {
+    padding-top: 15px;
+    padding-bottom: 1px;
+    display: block;
+    height:44px;
+    font-size: 2em;
+    background: white;
+    padding-left: 5%;
+    border-bottom: 1px solid #E2DFDE;
+    position: relative;
+
+}
+#articles .pos-center {
+    overflow: hidden;
+}
+.user-articles{
+    /*width:60%;*/
+    background: white;
+    overflow: hidden;
+    padding-left:2%;
+    padding-top: 25px;
+}
+
+.user-articles h3{ 
+    font-size: 1.5em;
+}
+
+.user-articles a{ 
+    font-size: 1em;
+    color:#F55B0C
+}
+.user-articles > div.info{
+    border-top: 1px dashed #E2DFDE;
+    padding-top: 10px;
+    padding-bottom:10px;
+    overflow: hidden;
+}
+
+.user-articles > div > .description{
+}
+
+.user-articles > div > .description > span{
+    font-weight:600;
+}
+.user-articles > div > img{ 
+    width:40%;
+    float:left;
+
+}
+
+.user-articles > div .description{ 
+    float:left;
+    width:55%;
+    padding-left: 1%;
+}
+
+.right-col{
+    float: left;
+    width: 30%;
+    margin-left:5%;
+
+
+}
+
+.left-col{
+    width: 60%;
+    overflow: hidden;
+    float:left;
+    margin-bottom: 10px;
+
+}
+
+#articles .nav-items .item{
+    background: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+#articles .nav-items .item > h2{
+    border-bottom: 1px solid black;
+    display: block;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+
+.user-articles  h3{
+    display: block;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    float:left;
+    width:50%;
+}
+
+.nav-items{
+    width: 40%;
+}
+
+.details {
+    float: right;
+    width:20%;
+    text-align: right;
+    padding-right: 2%
+}
+/*Caption header styles*/ 
+
+
+
+.white {
+    background-color:white;
+    border-bottom: 1px black solid
+}
+
+.caption h2 {
+    padding: 1%;
+    font-size: 3em;
+}
+
+/*pagination*/ 
+
+.pagination-site {
+    overflow: hidden;
+}
+.pagination-site div{
+    float:left;
+    padding: 5px;
+
+}
+
+.pagination-site .sites ul li {
+    cursor: pointer;
+    float:left;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    width: 15px;
+
+}
+
+
+.pagination-site .sites ul li.active {
+    background: red;
+}
+
+.pagination-site .sites ul li:hover {
+    background: red;
+}
+.blog-paggination {
+    width:60%;
+    text-align: center;
+    margin: 0px auto;
+    color:white;
+}
+
+/*Forms*/ 
+
+/*new article*/
+article {
+    background: white;
+}
+
+input,textArea {
+    width: 100%;
+    font-size: 1.2em;
+}
+
+.form-group {
+    font-size: 1.4em;
+}
+
+
+/*show article csss*/
+
+#single-article {
+    background: #e8e8e8;
+}
+
+#single-article > .pos-center{
+    overflow: hidden;
+    background: white;
+}
+#single-article .header{
+    padding-top:50px;
+    /*background: white;*/
+    font-size: 3em;
+    height: 150px;
+    background: url(http://obrazki.4ever.eu/data/download/abstrakcyjne/czerwone-linie,-czarne-tlo-196831.jpg) no-repeat ;
+    background-size: 100% 100%;
+}
+
+#single-article .title {
+    padding-bottom: 10px;
+    border-bottom: 1px #e5e5e5 dashed ;
+    display: block;
+    width: 60%;
+    color:white;
+
+}
+#single-article .info {
+    width: 60%;
+}
+#single-article  .rating,
+#single-article  .info p {
+    font-size: 0.5em;
+    color:#cecece;
+    display: block;
+    width: 45%;
+    display: inline-block;
+
+}
+
+#single-article  .rating {
+    text-align: right;
+
+}
+#single-article .nav {
+    overflow: hidden;
+    background: white;
+}
+
+
+#single-article .nav .pos-center > div{
+    height: 20px;
+    padding-left: 1%;
+    padding-top:20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    font-size:1.5em;
+    float:left;
+}
+#single-article .nav .breadcrumb {
+    width: 60%;
+    border-right: 1px dashed black;
+}
+
+#single-article .nav .search {
+    width:35%;
+}
+
+#single-article .article-content  .cover{
+    height:250px;
+    padding:5px;
+    float: left;
+}
+
+.gradient2 { 
+    display: block;
+    z-index: 5;
+    position: relative;
+    height:10px;
+    background: url(http://www.uniquefinefabrics.com/app/webroot/img/bxslider/slider_shadow.png) left bottom repeat-x;
+}
+
+#single-article  .content {
+    overflow: hidden;
+    background: transparent;
+}
+
+#single-article .right-col {
+    margin:0px;
+    width: 20%;
+}
+#single-article .left-col {
+    padding-left: 1%;
+}
+
+#single-article .right-col .user-info{
+    height: 250px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+#single-article .article-content {
+    overflow:hidden;
+}
+
+textarea,input {
+    background:#f1f0f0 none repeat scroll 0 0; 
+    border: 0px none;
+}
+.button-link {
+    padding: 10px 15px;
+    background: #4479BA;
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+}
+.button-link:hover {
+    background: #356094;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+}
+.button-link:active {
+    -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    background: #2E5481;
+    border: solid 1px #203E5F;
+}
+
+.well, .text-center{
+    text-align: center;
+}
+.form-group{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.single-comment {
+    border: 1px solid #e7e6e6;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-top: 40px;
+}
+
+.single-comment .comment-image {
+    position: absolute;
+    top: -10px;
+    left:-10px;
+}
+
+.single-comment .comment-image >img {
+    border-radius: 50%;
+
+}
+
+.single-comment .comment-info {
+    padding-left: 10%;
+    background: #ff2626;
+    font-size: 1.3em;
+}
+
+.single-comment .comment-description {
+    padding-left: 15%;
+    font-style:italic;
+    font-size: 1.1em;
+}
+
+/*and (min-width:900px)*/
+@media all and (max-width: 1240px){
+    #articles .nav-items .item  {
+        display: none;
+    }
+
+    .left-col {
+        width: 100%;   
+    }
+
+    #header.home-slider .slides{
+        overflow: hidden;
+        height: 690px;
+    }
+
+    #header.home-slider .item{
+        /*width: 1200px;*/
+    }
+
+    #header.home-slider .pepers{
+        /*height: 690px;*/
+        position: relative;
+    }
+
+    #header.home-slider .pepers .caption{
+        /*background: url('../img/header-slider-caption-bg.jpg') no-repeat;*/
+        background: transparent;
+        text-align: center;
+        display: block;
+        width: 60%;
+        height: 100%;
+        position: static;
+        left: 5%;
+        top: 178px;
+        padding-top: 34px;
+        padding-left: 25px;
+        padding-right: 40px;
+        margin-left:17.5%;
+        line-height: 3em;
+
+    }
+
+    #header.home-slider .pepers .caption,
+    #header.home-slider .pepers .caption a{
+        color: #fff;
+        text-shadow: 2px 1px 1px #000000;
+        filter: dropshadow(color=#000000, offx=2, offy=1);
+    }
+
+    #header.home-slider .pepers .caption h3{
+        font-size: 36px;
+        margin-bottom: 13px;
+    }
+
+    #header.home-slider .pepers .caption p{
+        font-size: 15px;
+        line-height: 23.5px;
+        text-align: center;
+        position: relative;
+    }
+
+    #header.home-slider .pepers .caption a{
+        background: red;
+        /*position: absolute;*/
+        right: 0px;
+        display: block;
+        border: 1px dashed #fff;
+        padding: 6px 16px;
+        text-transform: uppercase;   
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        -webkit-box-shadow: 1px 1px 9px rgba(0, 0, 0, 1);
+        -moz-box-shadow: 1px 1px 9px rgba(0, 0, 0, 1);
+        box-shadow: 1px 1px 9px rgba(0, 0, 0, 1);
+        -moz-transform: rotate(-5deg);
+        -webkit-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+
+    #header.home-slider .pepers img{
+        position: static;
+        right: 5%;
+        max-height: 100%;
+        top: 0px;
+    }
+    #header.home-slider .pepers {
+        height: 100%;
+    }
+    .home-slider .pos-center,
+    #header.home-slider .slides{
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #home .food-fight {
+        background: #000;
+        width: 100%;
+    }
+    .vs-small{
+        /*background: #000 url('../img/icon-food-fight.png') no-repeat;*/
+        /*margin-left: 40%;*/
+        /*z-index: 3;*/
+        /*position: absolute;*/
+        width: 25%;
+        bottom: 0px;
+        margin-left: 37%;
+        display: block;
+    }
+
+    //tablet css
+    .opponent {
+        color: #fff;
+        height: 360px;
+        margin-top: 75px;
+        position: relative;
+        width: 90%;
+        margin-left: 30%;
+    }
+
+
+    #home .food-fight .pos-center {
+        height: 100%;
+        margin:0px auto;
+        vertical-align: middle;
+    }
+
+    .opponent.good ,   
+    .opponent.bad {
+        float: none;
+        margin-left: 29%;
+    }
+
+
+
+    .opponent.bad .header {
+        left: -19px;
+        top: -30px;
+        transform: rotate(-45deg);
+    }
+
+
+    .opponent.bad .details {
+        left: 276px;
+    }
+
+
+    #home .food-fight header {
+        position: static;
+        margin-left: 0px;
+        width: 100%;
+        padding-top: 25px;
+    }
+
+    #home .inspirations .slider .slides-container .items > div {
+        width:40%;
+        padding: 2%;
+        margin-left: 6%;
+
+    }
+
+    #home .comments .container section{
+        float: left;
+        width: 100%;
+        position: relative;
+    }
+}
+
+@media all and (max-width: 750px){
+
+    .pos-center{
+        width: 100%;
+    }
+
+    body > header nav ul.menu {
+        position: absolute;
+        background:#170901 ;
+        z-index: 2;
+        display: none;
+    }
+
+    body > header nav ul.menu > li {
+        float: none;
+    }
+
+    .dropdown-nav {
+        display: block;
+        margin-top: 5px;
+    }
+
+    ul.menu {
+        width: 100%;
+    }
+    ul.menu > li {
+        width: 100%;
+        text-align: center;
+    }
+
+    body > header h1, body > header h1 a {
+        width: 100%; 
+        height: 100px;
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+        background-size: 30%;
+    }
+
+    body > header {
+        background: #170901 none repeat scroll 0 0;
+        border-bottom: 5px solid #FF2626;
+        min-height: 76px;
+    }
+
+    body > header nav {
+        width: 100%;
+    }
+
+
+
+    body > header nav ul li .sub-menu {
+        background: #170901 none repeat scroll 0 0;
+        display: none;
+        left:40%;
+        position: absolute;
+        border: 1px solid #FF2626;
+        border-radius: 10px;
+        top: 76px;
+        width: 288px;
+        z-index: 10;
+    }
+
+    .button-link {
+        padding: 10px 15px;
+        background: #FF2626;
+        color: #FFF;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        border: solid 1px #170901;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+        -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-user-select:none;
+        -moz-user-select:none;
+        -ms-user-select:none;
+        user-select:none;
+    }
+    .button-link:hover {
+        background: #170901;
+        border: solid 1px #FF2626;
+        text-decoration: none;
+    }
+    .button-link:active {
+        -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+        -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+        box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+        background: #2E5481;
+        border: solid 1px #203E5F;
+    }
+
+
+
+    body > header h1, body > header nav {
+        float:none;   
+    }
+
+    #home .inspirations .slider .slides-container .items > div {
+        width: 90%; 
+        margin-left: 0;
+        padding-bottom: 10px;
+        border-bottom: 1px #E2DFDE solid;
+    }
+
+    #home .inspirations .slider .slides-container .items > div > .more {
+        margin-bottom: 10px;
+    }
+
+
+}
