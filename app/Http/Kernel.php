@@ -18,7 +18,8 @@ class Kernel extends HttpKernel {
         'Illuminate\Session\Middleware\StartSession',
         'Illuminate\View\Middleware\ShareErrorsFromSession',
         'App\Http\Middleware\VerifyCsrfToken',
-        'App\Http\Middleware\demo' ,
+        'App\Http\Middleware\demo',
+        'App\Http\Middleware\TemplateChoser',
 //        'App\Http\Middleware\LaravelDocumentation'
     ];
 
@@ -31,7 +32,9 @@ class Kernel extends HttpKernel {
         'auth' => 'App\Http\Middleware\Authenticate',
         'auth.basic' => 'Illuminate\Auth\Middleware\AuthenticateWithBasicAuth',
         'guest' => 'App\Http\Middleware\RedirectIfAuthenticated',
-        'laravel-middleware'=>'App\Http\Middleware\LaravelDocumentation'
+        'laravel-middleware' => 'App\Http\Middleware\LaravelDocumentation',
+        'acl' => 'App\Http\Middleware\AclRoutePermission',
+        'activity_log' => 'App\Http\Middleware\UserActivityLog',
     ];
 
 }

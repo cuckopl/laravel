@@ -43,7 +43,6 @@ class ArticlesController extends Controller {
      * @return Response
      */
     public function store(CreateArticleRequest $request) {
-        $ala=  Request::all();
         $article = Auth::user()->articles()->save(new Article($request->all()));
         $article->tags()->attach($request->input('tag_list'));
 

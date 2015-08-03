@@ -2,7 +2,7 @@
 
 namespace App\ReturnObject;
 
-abstract class BaseReturnObject implements \BaseModule\ReturnObject\ReturnObjectInterface {
+abstract class BaseReturnObject implements ReturnObjectInterface {
 
     protected $isValid;
     protected $message;
@@ -30,7 +30,5 @@ abstract class BaseReturnObject implements \BaseModule\ReturnObject\ReturnObject
     public function getMessage() {
         return $this->message;
     }
-    
-    
 
 }
