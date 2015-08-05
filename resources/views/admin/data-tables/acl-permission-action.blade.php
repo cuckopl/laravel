@@ -1,0 +1,2 @@
+<a class = 'action-modal' id-user ='{{$value['id']}}' type='get' href = "{{$routeEdit}}" ><i class = "glyphicon glyphicon-edit" ></i></a></i >
+<a class = 'action-modal' id-user ='{{$value['id']}}' type='delete' href = "{{$routeDestroy}}" ><i class = " fa fa-trash-o" ></i></a></i>

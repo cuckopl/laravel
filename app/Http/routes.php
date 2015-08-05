@@ -99,13 +99,11 @@ Route::group(['namespace' => 'Admin', 'middleware' => ['acl', 'activity_log'], '
     Route::get('/code-builder/index', ['as' => 'codeBuilderIndex', 'uses' => 'CodeBuilderConttroller@index']);
     Route::get('/code-builder/create', ['as' => 'codeBuilderCreate', 'uses' => 'CodeBuilderConttroller@create']);
     Route::post('/code-builder', ['as' => 'codeBuilderStore', 'uses' => 'CodeBuilderConttroller@store']);
-//Emial -> CrudBuilder
-    Route::get('/' . EmailsController::ControllerRoutePrefix, ['as' => EmailsController::ControllerName . 'Index', 'uses' => EmailsController::ControllerName . '@index']);
-    Route::get('/' . EmailsController::ControllerRoutePrefix.'/create' , ['as' => EmailsController::ControllerName . 'getAclPremission', 'uses' => EmailsController::ControllerName . '@create']);
-    Route::post('/' . EmailsController::ControllerRoutePrefix, ['as' => EmailsController::ControllerName . 'addAclPremission', 'uses' => EmailsController::ControllerName . '@store']);
-    Route::put('/' . EmailsController::ControllerRoutePrefix  . '/{id}', ['as' => EmailsController::ControllerName . 'updateAclPremission', 'uses' => EmailsController::ControllerName . '@update'])->where('id', '[0-9]+');
-    Route::get('/' . EmailsController::ControllerRoutePrefix . '/edit/{id}', ['as' => EmailsController::ControllerName . 'editAclPremission', 'uses' => EmailsController::ControllerName . '@edit'])->where('id', '[0-9]+');
-    Route::delete('/' . EmailsController::ControllerRoutePrefix . '/{id}', ['as' => EmailsController::ControllerName . 'destroyAclPremission', 'uses' => EmailsController::ControllerName . '@destroy'])->where('id', '[0-9]+');
+    Route::get('/code-builder/dataTable', ['as' => 'codebuilderDataTable', 'uses' => 'CodeBuilderConttroller@dataTable']);
+
+    //load dynamic routes
+    \App\Model\DynamicRoutes::loadDataBaseRoutes();
+
 //DATA TABLE route group
     Route::group(['namespace' => 'TableControllers', 'middleware' => ['acl'], 'prefix' => '/table'], function() {
         //Permision table role controller
@@ -117,5 +115,4 @@ Route::group(['namespace' => 'Admin', 'middleware' => ['acl', 'activity_log'], '
     });
 });
 
-//we schould add dyamic loaded routes from database :)
 

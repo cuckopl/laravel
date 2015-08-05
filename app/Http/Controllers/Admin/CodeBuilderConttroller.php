@@ -7,7 +7,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Model\Resources\ModuleResources;
 
-class CodeBuilderConttroller extends Controller {
+class CodeBuilderConttroller extends CrudBaseController {
 
     /**
      * Display a listing of the resource.
@@ -37,44 +37,8 @@ class CodeBuilderConttroller extends Controller {
         return $moduleResource->validateAndSave($request, $module);
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return Response
-     */
-    public function show($id) {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return Response
-     */
-    public function edit($id) {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  int  $id
-     * @return Response
-     */
-    public function update($id) {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return Response
-     */
-    public function destroy($id) {
-        //
+    protected function getModel() {
+        return new \App\Model\Module();
     }
 
 }
