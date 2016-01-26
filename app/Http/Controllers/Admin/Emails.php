@@ -4,15 +4,15 @@
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use App\Model\;
+use App\Model\Emails;
 
 
-class  extends CrudBaseController {
+class Emails extends CrudBaseController {
 
-    protected $controllerView = 'admin/';
+    protected $controllerView = 'admin/emails';
     
     protected function getModel() {
-        return new  ;
+        return new  Emails;
     }
 
 }

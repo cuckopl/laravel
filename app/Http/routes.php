@@ -103,7 +103,7 @@ Route::group(['namespace' => 'Admin', 'middleware' => ['acl', 'activity_log'], '
 
     //load dynamic routes
     \App\Model\DynamicRoutes::loadDataBaseRoutes();
-
+//asdasd
 //DATA TABLE route group
     Route::group(['namespace' => 'TableControllers', 'middleware' => ['acl'], 'prefix' => '/table'], function() {
         //Permision table role controller
