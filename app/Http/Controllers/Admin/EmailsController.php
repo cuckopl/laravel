@@ -24,4 +24,8 @@ class EmailsController extends CrudBaseController {
         
     }
 
+    protected function getTableActions() {
+        
+    }
+
 }

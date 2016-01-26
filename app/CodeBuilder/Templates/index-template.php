@@ -14,7 +14,14 @@
     <div class="col-lg-12">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <?php echo $data->routes->getControllerName()?> CRUD gen 1.0
+                <?php echo $data->routes->getControllerName() ?> CRUD gen 1.0
+            </div>
+            <div class="panel-body">
+                <ul class="nav nav-pills dataTable_wrapper">
+                    <li> <a type="GET" href="{{route('<?php echo $data->routes->aliases['create'] ?>')}}"><i class="glyphicon glyphicon-tower"></i> Add</a></li>
+                </ul>
+
+
             </div>
             <!-- /.panel-heading -->
             <div class="panel-body">
@@ -22,13 +29,13 @@
                     <table class="table table-bordered" id="user-activity">
                         <tfoot>
                             <?php foreach ($data->tableColumns as $column): ?>
-                        <th></th>
+                            <th></th>
                         <?php endforeach; ?>
                         </tfoot>
                         <thead>
                             <tr>
                                 <?php foreach ($data->tableColumns as $column): ?>
-                                <th>  <?php echo $column ?></th>
+                                    <th>  <?php echo $column ?></th>
                                 <?php endforeach; ?>
                                 <th>action</th>
                             </tr>
@@ -65,25 +72,25 @@
             columns: [
 <?php foreach ($data->tableColumns as $column): ?>
 
-            {data: '<?php echo $column ?>', name: '<?php echo $column ?>'},
-                      <?php endforeach; ?>
+                {data: '<?php echo $column ?>', name: '<?php echo $column ?>'},
+<?php endforeach; ?>
 
             {data: 'action', name: 'action', "bSearchable": false}
             ]
-            });
-                    // Setup - add a text input to each footer cell
-                    $('#user-activity tfoot th').each(function () {
-            var title = $('#user-activity thead th').eq($(this).index()).text();
-                    $(this).html('<input type="text" placeholder="Search ' + title + '" />');
-            });
-                    var table = $('#user-activity').DataTable();
-                    // Apply the search
-                    table.columns().every(function () {
-            var that = this;
-                    $('input', this.footer()).on('keyup change', function () {
-            that.search(this.value).draw();
-            });
-            });
+    });
+            // Setup - add a text input to each footer cell
+            $('#user-activity tfoot th').each(function () {
+    var title = $('#user-activity thead th').eq($(this).index()).text();
+            $(this).html('<input type="text" placeholder="Search ' + title + '" />');
+    });
+            var table = $('#user-activity').DataTable();
+            // Apply the search
+            table.columns().every(function () {
+    var that = this;
+            $('input', this.footer()).on('keyup change', function () {
+    that.search(this.value).draw();
+    });
+    });
 </script>
 
 </body>

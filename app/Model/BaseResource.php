@@ -22,7 +22,7 @@ abstract class BaseResource {
 
         if ($status) {
             $this->store($request->all());
-            $info = \App\Helpers\Notification::generateSucces('Saving role data was succesfull.');
+            $info = \App\Helpers\Notification::generateSucces('Saving data was succesfull.');
         } else {
             $info = \App\Helpers\Notification::generateError($validator->errors()->all());
         }
@@ -33,7 +33,7 @@ abstract class BaseResource {
 
     protected function store($data) {
         if ($this->id == null) {
-            $model=$this->model->create($data);
+            $model = $this->model->create($data);
         } else {
             $model = $this->model->find($this->id);
             $model->update($data);

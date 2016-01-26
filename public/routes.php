@@ -66,7 +66,7 @@ Route::group(['namespace' => 'Admin', 'middleware' => ['acl', 'activity_log'], '
 
 
 
-// User Controller
+// User COntroller
     Route::get('/user', ['as' => 'userIndex', 'uses' => 'UserController@listUsers']);
     Route::get('/user/get-user/{id}', ['as' => 'getUser', 'uses' => 'UserController@get'])->where('id', '[0-9]+');
     Route::post('/user/get-user/{id}', ['as' => 'updateUser', 'uses' => 'UserController@update'])->where('id', '[0-9]+');
@@ -102,7 +102,7 @@ Route::group(['namespace' => 'Admin', 'middleware' => ['acl', 'activity_log'], '
     Route::get('/code-builder/dataTable', ['as' => 'codebuilderDataTable', 'uses' => 'CodeBuilderConttroller@dataTable']);
 
     //load dynamic routes
-    \App\Model\DynamicRoutes::loadDataBaseRoutes();
+   // \App\Model\DynamicRoutes::loadDataBaseRoutes();
 
 //DATA TABLE route group
     Route::group(['namespace' => 'TableControllers', 'middleware' => ['acl'], 'prefix' => '/table'], function() {

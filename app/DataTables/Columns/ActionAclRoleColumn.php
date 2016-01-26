@@ -13,7 +13,7 @@ Class ActionAclRoleColumn extends \App\DataTables\Base\BaseColumn {
     }
 
     /*
-     * $this->renderView() trait and render view from obhect variables
+     * $this->renderView() trait and render view from object variables
      * $this->args;
      * $this->template;
      * 

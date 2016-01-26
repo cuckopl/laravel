@@ -41,4 +41,8 @@ class CodeBuilderConttroller extends CrudBaseController {
         return new \App\Model\Module();
     }
 
+    protected function getTableActions() {
+        
+    }
+
 }

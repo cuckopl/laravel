@@ -1,6 +1,6 @@
 <?php
 
-namespace App\CodeBuilder\Route;
+namespace App\CodeBuilder\RouteGenerator;
 
 /**
  * Description of RouteGenerator
@@ -18,6 +18,7 @@ class RouteGenerator {
     protected $routes;
     protected $controllerName;
     protected $modelName;
+    public $aliases;
 
     public function __construct($controllerName, $modelName) {
         $this->controllerName = $controllerName;
@@ -51,12 +52,22 @@ class RouteGenerator {
     public function genereateCrudRoutes($moduleId) {
 
         $prefixRoute = $this->controllerName;
+
         $this->routes['index'] = "Route::get('/" . $prefixRoute . "', ['as' => '" . $this->controllerName . "Index', 'uses' => '" . $this->controllerName . "@index']);";
         $this->routes['create'] = "Route::get('/" . $prefixRoute . "/create', ['as' => '" . $this->controllerName . "Get', 'uses' => '" . $this->controllerName . "@create']);";
         $this->routes['store'] = "Route::post('/" . $prefixRoute . "', ['as' => '" . $this->controllerName . "Add', 'uses' => '" . $this->controllerName . "@store']);";
         $this->routes['edit'] = "Route::get('/" . $prefixRoute . "/edit/{id}', ['as' => '" . $this->controllerName . "Edit', 'uses' => '" . $this->controllerName . "@edit'])->where('id', '[0-9]+');";
         $this->routes['destroy'] = "Route::delete('/" . $prefixRoute . "/{id}', ['as' => '" . $this->controllerName . "Destroy', 'uses' => '" . $this->controllerName . "@destroy'])->where('id', '[0-9]+');";
         $this->routes['datatable'] = "Route::get('/" . $prefixRoute . "/dataTable', ['as' =>'" . $this->controllerName . "DataTable', 'uses' => '" . $this->controllerName . "@dataTable']);";
+
+
+
+        $this->aliases['index'] = $this->controllerName . "Index";
+        $this->aliases['create'] = $this->controllerName . "Get";
+        $this->aliases['store'] = $this->controllerName . "Add";
+        $this->aliases['edit'] = $this->controllerName . "Edit";
+        $this->aliases['destroy'] = $this->controllerName . "Destroy";
+        $this->aliases['datatable'] = $this->controllerName . "DataTable";
 
         $this->saveRoutes($moduleId, $this->controllerName);
         return $this->routes;

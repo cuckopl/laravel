@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Contracts\Auth\Guard;
-use Illuminate\Contracts\Auth\Registrar;
+use App\Services\Registrar;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 use Validator;
 use App\User;
@@ -35,8 +35,6 @@ use AuthenticatesAndRegistersUsers;
      */
     public function __construct(Guard $auth, Registrar $registrar) {
         $this->auth = $auth;
-        $this->registrar = $registrar;
-
         $this->middleware('guest', ['except' => 'getLogout']);
     }
 
@@ -55,12 +53,15 @@ use AuthenticatesAndRegistersUsers;
      * @return User
      */
     public function create(array $data) {
-        return User::create([
-                    'name' => $data['name'],
-                    'email' => $data['email'],
-                    'password' => bcrypt($data['password']),
-        ]);
-    }
 
+
+        $registar = new Registrar($data);
+        return $registar->create($data);
+//        return User::create([
+//                    'name' => $data['name'],
+//                    'email' => $data['email'],
+//                    'password' => bcrypt($data['password']),
+//        ]);
+    }
 
 }

@@ -6,7 +6,6 @@ Class ActionAclPermission extends \App\DataTables\Base\BaseColumn {
 
     public function createArgs($value, $row) {
         $this->setTemplate('admin.data-tables.acl-permission-action');
-        $ala=$row->id;
         $this->addViewVariables(array('value' => $value,
             'routeEdit' => route('editAclPremission', $row->id),
             'routeDestroy' => route('destroyAclPremission', $row->id),

@@ -19,6 +19,7 @@ abstract class CrudBaseController extends Controller {
      */
 
     protected $model;
+    protected $viewPath;
 
     /*
      * Set clss rotected variable model. 
@@ -37,9 +38,8 @@ abstract class CrudBaseController extends Controller {
     }
 
     public function create() {
-        $permission = new Permission();
         $actions = \App\Model\Resources\PermissionResources::getAvailbeRoutes();
-        return view('admin.permission-controller.add', compact('permission', 'actions'));
+        return view($this->controllerView . '/add', ['model' => $this->model, 'actions' => $actions]);
     }
 
     /**
@@ -49,20 +49,8 @@ abstract class CrudBaseController extends Controller {
      * @return Response
      */
     public function store(Request $request) {
-        $aclRoleResource = \App\Model\Resources\PermissionResources::factoryCreate();
-        return $aclRoleResource->validateAndSave($request, new Permission());
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return Response
-     */
-    public function createPerrmisionRoutes() {
-        \App\Model\Resources\PermissionResources::refreshRoutes();
-        $info = \App\Helpers\Notification::generateSucces('Permission Routes Refreshed Successfully');
-        return response()->json(['status' => true, 'info' => $info]);
+        $aclRoleResource = new \App\Model\Resources\SimpleResource();
+        return $aclRoleResource->validateAndSave($request, $this->getModel());
     }
 
     /**
@@ -74,7 +62,7 @@ abstract class CrudBaseController extends Controller {
     public function edit($id) {
         $permission = Permission::find($id);
         $actions = \App\Model\Resources\PermissionResources::getAvailbeRoutes();
-        return view('admin.permission-controller.edit', compact('permission', 'actions'));
+        return view($this->controllerView . '/edit', compact('permission', 'actions'));
     }
 
     /**
@@ -106,8 +94,9 @@ abstract class CrudBaseController extends Controller {
 
     public function dataTable() {
         $dataTable = new \App\DataTables\DataTable($this->getModel()->select('*'), DataTableRequest::capture());
-        $dataTable->addColumn('action','ImplementCruddActions');
+        $dataTable->addColumn('action', $this->getTableActions());
         return $dataTable->make(true);
     }
 
+    abstract protected function getTableActions();
 }

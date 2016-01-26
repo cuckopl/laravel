@@ -65,14 +65,14 @@
 
 
 
-<!--            <div class="right-col">
-
-                <div class='item user-info'></div>
-                <div class="item tags"></div>
-                <div class='item articles'></div>
-
-
-            </div>-->
+            <!--            <div class="right-col">
+            
+                            <div class='item user-info'></div>
+                            <div class="item tags"></div>
+                            <div class='item articles'></div>
+            
+            
+                        </div>-->
         </div>
     </div>
 
@@ -80,60 +80,60 @@
 
 @stop
 
-<script> $.ajaxSetup({ headers: { 'X-CSRF-Token': $('meta[name="csrf-token"]').attr('content') } }); </script>
+<script> $.ajaxSetup({ headers: { 'X-CSRF-Token': $('meta[name="csrf-token"]').attr('content') } });</script>
 <script type="text/javascript">
 
-var commentCount = 3;
-var userId = '{{Auth::id()}}';
-function loadComments(articleId, amount) {
-commentCount += 3;
+            var commentCount = 3;
+            var userId = '{{Auth::id()}}';
+            function loadComments(articleId, amount) {
+            commentCount += 3;
+                    $.ajax({
+                    method: "POST",
+                            url: '{{url('comments / get')}}',
+                            beforeSend: function (request)
+                            {
+                            request.setRequestHeader('X-CSRF-Token', $('input[name="_token"]').val());
+                            },
+                            data: {articleId: articleId, amount: amount}
+                    })
+                    .done(function (data) {
+                    $('#load_comments').show();
+                            $('#comments').html(data);
+                    });
+            }
+
+    function addComment (articleId, userId, content){
     $.ajax({
     method: "POST",
-            url: '{{url('comments/get')}}',
+            url: '{{url('comments / add')}}',
             beforeSend: function (request)
             {
             request.setRequestHeader('X-CSRF-Token', $('input[name="_token"]').val());
             },
-            data: {articleId: articleId, amount: amount}
+            data: {article_id: articleId, content: content, user_id:userId}
     })
-    .done(function (data) {
-    $('#load_comments').show();
-            $('#comments').html(data);
+            .done(function (data) {
+            $('#add_comment').show();
+                    $('#comments').prepend(data);
+            });
+    }
+
+    $(document).ready(function () {
+
+    $('#load_comments').click(function ()  {
+    $('#load_comments').hide();
+            loadComments({{$article - > id}}, commentCount);
     });
-}
-
-function addComment (articleId, userId, content){
-$.ajax({
-method: "POST",
-url: '{{url('comments/add')}}',
-beforeSend: function (request)
-{
-request.setRequestHeader('X-CSRF-Token', $('input[name="_token"]').val());
-},
-data: {article_id: articleId, content: content, user_id:userId}
-})
-.done(function (data) {
-$('#add_comment').show();
-    $('#comments').prepend(data);
-});
-}
-
-$(document).ready(function () {
-
-$('#load_comments').click(function ()  {
-$('#load_comments').hide();
-loadComments({{$article->id}}, commentCount);
-});
-$('#add_comment').click(function ()  {
-if (!userId){
-return   alert('Aby dodwać komentarze zaloguj się');
-}
-$('#add_comment').hide();
-content = $('#comment_content').val();
-$('#comment_content').val('');
-addComment({{$article->id}}, userId, content);
-});
-});
+            $('#add_comment').click(function ()  {
+    if (!userId){
+    return   alert('Aby dodwać komentarze zaloguj się');
+    }
+    $('#add_comment').hide();
+            content = $('#comment_content').val();
+            $('#comment_content').val('');
+            addComment({{$article - > id}}, userId, content);
+    });
+    });
 </script>
 
 

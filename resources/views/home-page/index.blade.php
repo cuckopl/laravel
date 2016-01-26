@@ -50,17 +50,17 @@
     <section class="boxes">
         <div class="pos-center">
 
-            <section class="box first wow slideInLeft" data-wow-delay="2s" >
+            <section class="box first wow slideInLeft" data-wow-delay="1s" >
                 <div class="step1">
-                    <h2>Zbiór Programów</h2>
-                    <p>Bacon ipsum dolor amet porchetta consequat in, non laborum cillum sunt turkey jerky. Ut aute pancetta prosciutto capicola beef. Tongue id pork ball tip fatback ut porchetta alcatra labore. Capicola kielbasa in venison irure spare ribs laborum. Picanha id filet mignon ut spare ribs sirloin. Ex laborum do ham sunt nisi.</p>
+                    <h2>Rwd Themes</h2>
+                    <p>Created from scratch <a style='color: red;' href='http://cuckopl.sk5.eu/CSS/rwd-bootstrap/myindex.php' target='_blank'>Check more</a></p>
                 </div>
             </section>
 
-            <section class="box second wow bounceInUp" data-wow-delay="2s">
+            <section class="box second wow bounceInUp" data-wow-delay=1s">
                 <div class="step1">
-                    <h2>Testy Monitorów</h2>
-                    <p>Bacon ipsum dolor amet porchetta consequat in, non laborum cillum sunt turkey jerky. Ut aute pancetta prosciutto capicola beef. Tongue id pork ball tip fatback ut porchetta alcatra labore. Capicola kielbasa in venison irure spare ribs laborum. Picanha id filet mignon ut spare ribs sirloin. Ex laborum do ham sunt nisi.</p>
+                    <h2>Based Ona Laravel 5.1 </h2>
+                    <p>Sysmtem based on Laravel 5.1 framework</p>
                 </div>
                 <div class="step2 hidden">
                     <h2>Ostatnio dodane:</h2>
@@ -76,10 +76,10 @@
                 </div>
             </section>
 
-            <section class="box third wow slideInRight" data-wow-delay="2s">
+            <section class="box third wow slideInRight" data-wow-delay="1s">
                 <div class="step1">
-                    <h2>Rzetelny zespół</h2>
-                    <p>Bacon ipsum dolor amet porchetta consequat in, non laborum cillum sunt turkey jerky. Ut aute pancetta prosciutto capicola beef. Tongue id pork ball tip fatback ut porchetta alcatra labore. Capicola kielbasa in venison irure spare ribs laborum. Picanha id filet mignon ut spare ribs sirloin. Ex laborum do ham sunt nisi.</p>
+                    <h2><a href="/admin" >Basic Admin</a></h2>
+                    <p>Basic admin content. Acl system CRUD generator, User Permissions , Group Permissions.</p>
                 </div>
                 <div class="step2 hidden">
                     <h2>Ostatnio dodane:</h2>

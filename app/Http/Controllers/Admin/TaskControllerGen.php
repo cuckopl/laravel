@@ -4,15 +4,15 @@
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use App\Model\ArticleComments;
+use App\Model\Tasks;
 
 
-class ArticleControllerTest extends CrudBaseController {
+class TaskControllerGen extends CrudBaseController {
 
-    protected $controllerView = 'admin/article-controller-test';
+    protected $controllerView = 'admin/task-controller-gen';
     
     protected function getModel() {
-        return new  ArticleComments;
+        return new  Tasks;
     }
 
     protected function getTableActions() {

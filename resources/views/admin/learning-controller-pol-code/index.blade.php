@@ -11,11 +11,11 @@
     <div class="col-lg-12">
         <div class="panel panel-default">
             <div class="panel-heading">
-                DynamicRoutes CRUD gen 1.0
+                LearningControllerPolCode CRUD gen 1.0
             </div>
             <div class="panel-body">
                 <ul class="nav nav-pills dataTable_wrapper">
-                    <li> <a type="GET" href="{{route('DynamicRoutesGet')}}"><i class="glyphicon glyphicon-tower"></i> Add</a></li>
+                    <li> <a type="GET" href="{{route('LearningControllerPolCodeGet')}}"><i class="glyphicon glyphicon-tower"></i> Add</a></li>
                 </ul>
 
 
@@ -31,17 +31,15 @@
                                                     <th></th>
                                                     <th></th>
                                                     <th></th>
-                                                    <th></th>
                                                 </tfoot>
                         <thead>
                             <tr>
                                                                     <th>  id</th>
-                                                                    <th>  name</th>
-                                                                    <th>  code_eval</th>
-                                                                    <th>  module_id</th>
+                                                                    <th>  content</th>
+                                                                    <th>  user_id</th>
+                                                                    <th>  article_id</th>
                                                                     <th>  created_at</th>
                                                                     <th>  updated_at</th>
-                                                                    <th>  as</th>
                                                                 <th>action</th>
                             </tr>
                         </thead>
@@ -69,7 +67,7 @@
     $('#user-activity').DataTable({
     processing: true,
             serverSide: true,
-            ajax: '{{route('DynamicRoutesDataTable')}}',
+            ajax: '{{route('LearningControllerPolCodeDataTable')}}',
             columnDefs: [{
             targets: "datatable-nosort",
                     orderable: false, "bFilter": false
@@ -78,17 +76,15 @@
 
                 {data: 'id', name: 'id'},
 
-                {data: 'name', name: 'name'},
+                {data: 'content', name: 'content'},
 
-                {data: 'code_eval', name: 'code_eval'},
+                {data: 'user_id', name: 'user_id'},
 
-                {data: 'module_id', name: 'module_id'},
+                {data: 'article_id', name: 'article_id'},
 
                 {data: 'created_at', name: 'created_at'},
 
                 {data: 'updated_at', name: 'updated_at'},
-
-                {data: 'as', name: 'as'},
 
             {data: 'action', name: 'action', "bSearchable": false}
             ]

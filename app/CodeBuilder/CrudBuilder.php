@@ -9,6 +9,7 @@ namespace App\CodeBuilder;
  */
 use DB;
 use App\Helpers\CamelCaseConverter;
+use App\CodeBuilder\RouteGenerator\RouteGenerator;
 
 class CrudBuilder implements Interfaces\GeneratorInterface {
 
@@ -22,6 +23,7 @@ class CrudBuilder implements Interfaces\GeneratorInterface {
         $this->addLoader(new Loaders\ControllerLoader());
         $this->addLoader(new Loaders\ModelLoader());
         $this->addLoader(new Loaders\IndexLoader());
+        $this->addLoader(new Loaders\AddLoader());
     }
 
     public function setControllerName($controllerName) {
@@ -43,7 +45,7 @@ class CrudBuilder implements Interfaces\GeneratorInterface {
     }
 
     public function generateRoutes($controllerName, $modelName) {
-        return new Route\RouteGenerator($controllerName, $modelName);
+        return new RouteGenerator($controllerName, $modelName);
     }
 
     public function addLoader($loader) {
