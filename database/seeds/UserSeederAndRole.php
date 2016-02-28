@@ -7,9 +7,11 @@ class UserSeederAndRole extends Seeder {
 
     public function run() {
         // Uncomment the below to wipe the table clean before populating
-        DB::table('users')->delete();
-        DB::table('permissions')->delete();
         DB::table('permission_user')->delete();
+        DB::table('permissions')->delete();
+        DB::table('users')->delete();
+
+
 
         $tasks = array(
             ['name' => config('acl.defaultUser'), 'id' => 1]

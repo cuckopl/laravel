@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder {
 		Model::unguard();
 
                 $this->call(UserSeederAndRole::class);
+                $this->call(DyanmicRoutesTableSeeder::class);
 	}
 
 }

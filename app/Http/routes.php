@@ -15,7 +15,6 @@ Route::group(['middleware' => ['acl', 'activity_log']], function() {
 //}
 //);
 
-
     Route::post('comments/get', 'ArticleCommentsController@get');
     Route::post('comments/add', 'ArticleCommentsController@add');
     Route::get('tags/{tags}', 'TagsController@show');
@@ -102,7 +101,11 @@ Route::group(['namespace' => 'Admin', 'middleware' => ['acl', 'activity_log'], '
     Route::get('/code-builder/dataTable', ['as' => 'codebuilderDataTable', 'uses' => 'CodeBuilderConttroller@dataTable']);
 
     //load dynamic routes
-    \App\Model\DynamicRoutes::loadDataBaseRoutes();
+
+
+    if (php_sapi_name() != 'cli') {
+        \App\Model\DynamicRoutes::loadDataBaseRoutes();
+    }
 //asdasd
 //DATA TABLE route group
     Route::group(['namespace' => 'TableControllers', 'middleware' => ['acl'], 'prefix' => '/table'], function() {
