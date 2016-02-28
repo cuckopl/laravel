@@ -21,6 +21,7 @@ class UserSeederAndRole extends Seeder {
         DB::table('users')->insert($tasks);
         DB::table('permissions')->insert($permission);
         DB::table('permission_user')->insert($userPermission);
+        DB::table('rols')->insert(['name'=>'defaultUserRole','slug'=>'defaultUserRole']);
     }
 
 }
