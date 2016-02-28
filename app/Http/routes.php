@@ -6,14 +6,8 @@ Route::group(['middleware' => ['acl', 'activity_log']], function() {
 
     Route::model('tasks', 'Task');
     Route::model('projects', 'Project');
-//kolejnośc jest ważna
-//Route::get('/', 'HomePageController@index');
     Route::get('/', ['uses' => 'HomePageController@index']);
 
-//Route::get('foo',  function(){
-//    return ' This is foo view';
-//}
-//);
 
     Route::post('comments/get', 'ArticleCommentsController@get');
     Route::post('comments/add', 'ArticleCommentsController@add');
@@ -31,20 +25,9 @@ Route::group(['middleware' => ['acl', 'activity_log']], function() {
         'auth' => 'Auth\AuthController',
         'password' => 'Auth\PasswordController',
     ]);
-
-//Home page controller 
-//articles
-//Route::get('articles',      'ArticlesController@index');
-//Route::get('articles/create', 'ArticlesController@create');
-//Route::get('articles/{id}', 'ArticlesController@show');
-//Route::post('articles', 'ArticlesController@store');
-//Route::get('articles/{id}/edit','ArticlesController@edit');
-
     Route::Resource('articles', 'ArticlesController');
 
-
 //Upload Route
-
     Route::any('media', 'FileUploadController@index');
     Route::any('store-media', 'FileUploadController@storeMedia');
 
@@ -52,18 +35,13 @@ Route::group(['middleware' => ['acl', 'activity_log']], function() {
     Route::any('/products', 'RestController@getProducts');
 
 
-//Admin routing 
 });
 
-
-
-
 Route::group(['namespace' => 'Admin', 'middleware' => ['acl', 'activity_log'], 'prefix' => '/admin'], function() {
-// controller admin 
+
+// controller admin
     Route::get('/', ['as' => 'adminIndex', 'uses' => 'AdminController@index']);
     Route::get('/dashboard', ['as' => 'adminDashboard', 'uses' => 'AdminController@dashboard']);
-
-
 
 // User Controller
     Route::get('/user', ['as' => 'userIndex', 'uses' => 'UserController@listUsers']);
@@ -80,6 +58,7 @@ Route::group(['namespace' => 'Admin', 'middleware' => ['acl', 'activity_log'], '
     Route::put('/acl/role/{id}', ['as' => 'updateAclRole', 'uses' => 'AclRoleController@update'])->where('id', '[0-9]+');
     Route::get('/acl/role/edit/{id}', ['as' => 'editAclRole', 'uses' => 'AclRoleController@edit'])->where('id', '[0-9]+');
     Route::delete('/acl/role/{id}', ['as' => 'destroyAclRole', 'uses' => 'AclRoleController@destroy'])->where('id', '[0-9]+');
+
 //PERMISSION controller
     Route::get('/acl/get-premission', ['as' => 'aclPremissionIndex', 'uses' => 'PermissionController@index']);
     Route::get('/acl/premission', ['as' => 'getAclPremission', 'uses' => 'PermissionController@create']);
@@ -88,12 +67,14 @@ Route::group(['namespace' => 'Admin', 'middleware' => ['acl', 'activity_log'], '
     Route::get('/acl/premission/edit/{id}', ['as' => 'editAclPremission', 'uses' => 'PermissionController@edit'])->where('id', '[0-9]+');
     Route::delete('/acl/premission/{id}', ['as' => 'destroyAclPremission', 'uses' => 'PermissionController@destroy'])->where('id', '[0-9]+');
     Route::get('/acl/premission/refresh-routes', ['as' => 'refreshPermissionRoutes', 'uses' => 'PermissionController@createPerrmisionRoutes']);
-// USER activity controller ONLY SHOW TABLE 
 
+// USER activity controller ONLY SHOW TABLE
     Route::get('/user-activity/index', ['as' => 'userActivityIndex', 'uses' => 'UserActivityController@index']);
     Route::get('/user-activity/get-table', ['as' => 'userActivitygetTableData', 'uses' => 'UserActivityController@getTableData']);
-//CHAT controller 
+
+//CHAT controller
     Route::get('/chat/index', ['as' => 'chatIndex', 'uses' => 'ChatController@index']);
+
 // CODE BUILDER    Controller
     Route::get('/code-builder/index', ['as' => 'codeBuilderIndex', 'uses' => 'CodeBuilderConttroller@index']);
     Route::get('/code-builder/create', ['as' => 'codeBuilderCreate', 'uses' => 'CodeBuilderConttroller@create']);
@@ -101,11 +82,15 @@ Route::group(['namespace' => 'Admin', 'middleware' => ['acl', 'activity_log'], '
     Route::get('/code-builder/dataTable', ['as' => 'codebuilderDataTable', 'uses' => 'CodeBuilderConttroller@dataTable']);
 
     //load dynamic routes
+    Route::get('/dynamic/get-routes', ['as' => 'DynamicRoutesIndex', 'uses' => 'DynamicRoutes@index']);
+    Route::get('/dynamic/add-routes', ['as' => 'DynamicRoutesGet', 'uses' => 'DynamicRoutes@create']);
+    Route::put('/dynamic/update-routes/{id}', ['as' => 'updateAclPremission', 'uses' => 'DynamicRoutes@update'])->where('id', '[0-9]+');
+    Route::get('/dynamic/edit-routes/{id}', ['as' => 'DynamicRoutesEdit', 'uses' => 'DynamicRoutes@edit'])->where('id', '[0-9]+');
+    Route::delete('/dynamic/delete-routes/', ['as' => 'DynamicRoutesDestroy', 'uses' => 'DynamicRoutes@destroy'])->where('id', '[0-9]+');
+    Route::get('/dynamic/dataTable', ['as' => 'DynamicRoutesDataTable', 'uses' => 'DynamicRoutes@dataTable']);
 
 
-    if (php_sapi_name() != 'cli') {
-        \App\Model\DynamicRoutes::loadDataBaseRoutes();
-    }
+
 //asdasd
 //DATA TABLE route group
     Route::group(['namespace' => 'TableControllers', 'middleware' => ['acl'], 'prefix' => '/table'], function() {
@@ -116,6 +101,13 @@ Route::group(['namespace' => 'Admin', 'middleware' => ['acl', 'activity_log'], '
         //user table Cotroller
         Route::get('/user/get-users-data', ['as' => 'getUsersData', 'uses' => 'UserTableController@getUsersData']);
     });
+
+
+    //Load dynamic routes created by module builder
+    if (php_sapi_name() != 'cli') {
+        \App\Model\DynamicRoutes::loadDataBaseRoutes();
+    }
+
 });
 
 
