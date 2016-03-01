@@ -1,0 +1,73 @@
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
+	color: #2E9063;
+}
+.btn{
+	background-color: #2E9063;
+}
+.btn:hover{
+	background-color: #232323;
+	border-color: #2E9063;
+	color: #2E9063;
+}
+.club .panel .panel-title i{
+	color: #2E9063;
+}
+.coaches h6{
+	color: #2E9063;
+}
+.coaches .coaches-item{
+	border: 1px solid #2E9063;
+}
+.contact .contact-info{
+	background-color: #2E9063;
+}
+.contact .contact-info:after{
+	border-top: 390px solid #2E9063;
+}
+.features-item i{
+	border: 3px solid #2E9063;
+	color: #2E9063;
+}
+.features-item:hover i {
+	background-color: #2E9063;
+}
+.features-item h4:after{
+	background: #2E9063;
+}
+.item-thumbnail .overthumb{
+	background: #2E9063;
+}
+.login-button>button{
+	color: #2E9063;
+}
+.login-button>button:hover{
+	background: #2E9063;
+}
+.navbar-header a.navbar-brand {
+	background: url("../images/logo-green.png") no-repeat center;
+	padding: 16px 85px!important;
+}
+.patners .owl-theme .owl-controls .owl-prev:before{
+	color: #2E9063;
+}
+.patners .owl-theme .owl-controls .owl-prev:before, .patners .owl-theme .owl-controls .owl-next:before{
+	color: #2E9063;
+}
+.pricing .pricing-item:before{
+	background: #2E9063;
+}
+.social li a:hover{
+	color: #2E9063;
+}
+.testimonials .owl-carousel .current figure{
+	border-color: #2E9063;
+}
+.testimonials .owl-carousel .current figure:after{
+	border-top-color: #2E9063;
+}
+.tooltip-inner{
+	background: #2E9063!important;
+}
+.tooltip-arrow{
+	border-top-color: #2E9063!important;
+}

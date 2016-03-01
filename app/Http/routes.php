@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\Admin\EmailsController;
 
+
+//front routing
 Route::group(['middleware' => ['acl', 'activity_log']], function() {
 
     Route::model('tasks', 'Task');
@@ -37,6 +39,8 @@ Route::group(['middleware' => ['acl', 'activity_log']], function() {
 
 });
 
+
+//Admin routing
 Route::group(['namespace' => 'Admin', 'middleware' => ['acl', 'activity_log'], 'prefix' => '/admin'], function() {
 
 // controller admin

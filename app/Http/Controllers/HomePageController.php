@@ -17,7 +17,7 @@ class HomePageController extends Controller {
         $articlesTop = \App\Article::latest('published_at')->published()->limit(8)->get();
         $articlesRandom= \App\Article::latest('published_at')->published()->orderByRaw("RAND()")->limit(3)->get();
         $comments= \App\ArticleComments::latest('created_at')->limit(6)->get();
-        return view('home-page.index', compact('articlesTop','articlesRandom','comments'));
+        return view('front/views/index/index');
     }
 
 }
