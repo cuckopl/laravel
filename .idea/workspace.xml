@@ -2,215 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="944900f0-f489-46c2-b332-476cc9ed2fc3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/font/fontello.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/font/fontello.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/font/fontello.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_black-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_black-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_black-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_black-webfont_2d2816fe.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_black_italic-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_black_italic-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_black_italic-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_black_italic-webfont_2d2816fe.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_bold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_bold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_bold_italic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_bold_italic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_bold_italic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_light-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_light-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_light-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_light-webfont_2d2816fe.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_light_italic-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_light_italic-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_light_italic-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_light_italic-webfont_2d2816fe.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/images/logo-green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/images/logo-orange.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/images/logo-red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/images/logo-yellow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/images/sc-graphics/preloader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/bg/club.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/bg/testimonials.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/carrousell-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/carrousell-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/coaches/coach01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/coaches/coach02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/coaches/coach03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/gallery/img01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/gallery/img02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/gallery/img03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/gallery/img04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/gallery/img05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/gallery/img06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/gallery/img07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/gallery/img08.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/patners/logo01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/patners/logo02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/patners/logo03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/patners/logo04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/slider/slide01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/slider/slide02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/slider/slide03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/testimonials/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/testimonials/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/testimonials/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/testimonials/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/testimonials/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/img/testimonials/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/fancybox/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/fancybox/fancybox_loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/fancybox/fancybox_loading@2x.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/fancybox/fancybox_overlay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/fancybox/fancybox_sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/fancybox/fancybox_sprite@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/fancybox/helpers/fancybox_buttons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/owl.carousel/assets/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/owl.carousel/assets/owl.video.play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/colors/green.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/colors/orange.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/colors/red.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/colors/yellow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/font/fontello.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender-font.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_black-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_black_italic-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_bold.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_bold_italic.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_light-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/bender/bender_light_italic-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/media-queries.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/vendors/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/vendors/fontello-codes.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/vendors/fontello-embedded.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/vendors/fontello-ie7-codes.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/vendors/fontello-ie7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/css/vendors/fontello.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/jquery.bgYtVideo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/classie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/fancybox/helpers/jquery.fancybox-buttons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/fancybox/helpers/jquery.fancybox-buttons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/fancybox/helpers/jquery.fancybox-media.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/fancybox/helpers/jquery.fancybox-thumbs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/fancybox/helpers/jquery.fancybox-thumbs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/fancybox/jquery.fancybox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/fancybox/jquery.fancybox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/fancybox/jquery.fancybox.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/gmaps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/jquery/jquery-1.9.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/jquery/jquery.appear.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/jquery/jquery.isotope.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/jquery/jquery.nav.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/modernizr.custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/owl.carousel/LICENSE-MIT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/owl.carousel/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/owl.carousel/assets/owl.carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/owl.carousel/assets/owl.carousel.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/owl.carousel/assets/owl.theme.default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/owl.carousel/assets/owl.theme.default.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/owl.carousel/assets/owl.theme.green.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/owl.carousel/assets/owl.theme.green.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/owl.carousel/owl.carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/owl.carousel/owl.carousel.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/placeholder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/retina.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/gym/js/vendors/uiMorphingButton_fixed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/front/layouts/gym/gym.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/front/views/index/index.blade.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/blogcss.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/common.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/extra.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/food-fight.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/jqtransform.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/kom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/reset.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/screen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/css/tab.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/WOW-master.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/app.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/THI SI jQuery-File-Upload-9.10.1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/angularjs.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/basic-plus.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/blueimp-file-upload.jquery.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/cors/postmessage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/cors/result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/css/demo-ie8.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/css/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/css/jquery.fileupload-noscript.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/css/jquery.fileupload-ui-noscript.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/css/jquery.fileupload-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/css/jquery.fileupload.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/img/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/img/progressbar.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/jquery-ui.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/js/cors/jquery.postmessage-transport.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/js/cors/jquery.xdr-transport.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/js/jquery.fileupload-angular.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/js/jquery.fileupload-audio.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/js/jquery.fileupload-image.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/js/jquery.fileupload-jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/js/jquery.fileupload-process.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/js/jquery.fileupload-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/js/jquery.fileupload-validate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/js/jquery.fileupload-video.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/js/jquery.fileupload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/js/jquery.iframe-transport.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/js/vendor/jquery.ui.widget.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/server/gae-go/app.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/server/gae-go/app/main.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/server/gae-go/static/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/server/gae-go/static/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/server/gae-python/app.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/server/gae-python/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/server/gae-python/static/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/server/gae-python/static/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/server/php/UploadHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/server/php/files/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/server/php/files/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/server/php/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/test/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/fileuloader/test/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/scripts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/wow/wow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/wow/wow.min.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/wow/animate.css" afterPath="$PROJECT_DIR$/public/gym/css/vendors/animate.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/HomePageController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomePageController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/layouts/gym/gym.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/layouts/gym/gym.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/views/index/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/views/index/index.blade.php" />
     </list>
     <ignored path="laravel4.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1792,50 +1588,64 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/front/views/index/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.4">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="-5.988506">
+              <caret line="673" column="37" selection-start-line="673" selection-start-column="37" selection-end-line="673" selection-end-column="37" />
+              <folding>
+                <element signature="e#22392#22430#0#HTML" expanded="true" />
+                <element signature="e#22458#22542#0#HTML" expanded="true" />
+                <element signature="e#22599#22620#0#HTML" expanded="true" />
+                <element signature="e#22651#22670#0#HTML" expanded="true" />
+                <element signature="e#23843#23870#0#HTML" expanded="true" />
+                <element signature="e#24090#24163#0#HTML" expanded="true" />
+                <element signature="e#24568#24609#0#HTML" expanded="true" />
+                <element signature="e#24705#24724#0#HTML" expanded="true" />
+                <element signature="e#24842#24902#0#HTML" expanded="true" />
+                <element signature="e#25001#25022#0#HTML" expanded="true" />
+                <element signature="e#25936#25982#0#HTML" expanded="true" />
+                <element signature="e#26079#26102#0#HTML" expanded="true" />
+                <element signature="e#26460#26481#0#HTML" expanded="true" />
+                <element signature="e#27278#27296#0#HTML" expanded="true" />
+                <element signature="e#27406#27432#0#HTML" expanded="true" />
+                <element signature="e#27610#27636#0#HTML" expanded="true" />
+                <element signature="e#27790#27831#0#HTML" expanded="true" />
+                <element signature="e#27903#27922#0#HTML" expanded="true" />
+                <element signature="e#28039#28099#0#HTML" expanded="true" />
+                <element signature="e#28495#28541#0#HTML" expanded="true" />
+                <element signature="e#28650#28668#0#HTML" expanded="true" />
+                <element signature="e#28778#28804#0#HTML" expanded="true" />
+                <element signature="e#28982#29008#0#HTML" expanded="true" />
+                <element signature="e#29133#29174#0#HTML" expanded="true" />
+                <element signature="e#29257#29276#0#HTML" expanded="true" />
+                <element signature="e#29459#29519#0#HTML" expanded="true" />
+                <element signature="e#29872#29918#0#HTML" expanded="true" />
+                <element signature="e#30029#30047#0#HTML" expanded="true" />
+                <element signature="e#30144#30170#0#HTML" expanded="true" />
+                <element signature="e#30352#30378#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gym.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/front/layouts/gym/gym.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18492344">
-              <caret line="162" column="26" selection-start-line="162" selection-start-column="26" selection-end-line="162" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.4">
-              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomePageController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HomePageController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomePageController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.6">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding />
+            <state vertical-scroll-proportion="0.4348762">
+              <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+              <folding>
+                <element signature="e#40#62#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/admin_template/js/admin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.033334">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            <state vertical-scroll-proportion="-59.37931">
+              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
               <folding>
-                <element signature="e#1253#6130#1#PHP" expanded="false" />
+                <marker date="1453841786081" expanded="true" signature="239:257" placeholder="..." />
+                <marker date="1453841786081" expanded="true" signature="1832:1850" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -1852,10 +1662,10 @@
         <option value="$PROJECT_DIR$/resources/views/leyouts/admin-1/admin_leyout.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/DynamicRoutes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/HomePageController.php" />
-        <option value="$PROJECT_DIR$/resources/views/front/views/index/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/front/layouts/gym/gym.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/views/index/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/HomePageController.php" />
       </list>
     </option>
   </component>
@@ -1896,6 +1706,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1911,6 +1722,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="laravel4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin_template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin_template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1946,15 +1811,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ciuchyv2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1992,6 +1879,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="944900f0-f489-46c2-b332-476cc9ed2fc3" name="Default" comment="" />
@@ -2005,7 +1895,7 @@
     <frame x="141" y="-8" width="1787" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553561" sideWeight="0.4626556" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25522304" sideWeight="0.45896655" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2013,7 +1903,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553561" sideWeight="0.5373444" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25522304" sideWeight="0.54103345" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2035,6 +1925,81 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/resources/views/front/views/index/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#22392#22430#0#HTML" expanded="true" />
+            <element signature="e#22458#22542#0#HTML" expanded="true" />
+            <element signature="e#22599#22620#0#HTML" expanded="true" />
+            <element signature="e#22651#22670#0#HTML" expanded="true" />
+            <element signature="e#23843#23870#0#HTML" expanded="true" />
+            <element signature="e#24090#24163#0#HTML" expanded="true" />
+            <element signature="e#24568#24609#0#HTML" expanded="true" />
+            <element signature="e#24705#24724#0#HTML" expanded="true" />
+            <element signature="e#24842#24902#0#HTML" expanded="true" />
+            <element signature="e#25001#25022#0#HTML" expanded="true" />
+            <element signature="e#25936#25982#0#HTML" expanded="true" />
+            <element signature="e#26079#26102#0#HTML" expanded="true" />
+            <element signature="e#26460#26481#0#HTML" expanded="true" />
+            <element signature="e#27278#27296#0#HTML" expanded="true" />
+            <element signature="e#27406#27432#0#HTML" expanded="true" />
+            <element signature="e#27610#27636#0#HTML" expanded="true" />
+            <element signature="e#27790#27831#0#HTML" expanded="true" />
+            <element signature="e#27903#27922#0#HTML" expanded="true" />
+            <element signature="e#28039#28099#0#HTML" expanded="true" />
+            <element signature="e#28495#28541#0#HTML" expanded="true" />
+            <element signature="e#28650#28668#0#HTML" expanded="true" />
+            <element signature="e#28778#28804#0#HTML" expanded="true" />
+            <element signature="e#28982#29008#0#HTML" expanded="true" />
+            <element signature="e#29133#29174#0#HTML" expanded="true" />
+            <element signature="e#29257#29276#0#HTML" expanded="true" />
+            <element signature="e#29459#29519#0#HTML" expanded="true" />
+            <element signature="e#29872#29918#0#HTML" expanded="true" />
+            <element signature="e#30029#30047#0#HTML" expanded="true" />
+            <element signature="e#30144#30170#0#HTML" expanded="true" />
+            <element signature="e#30352#30378#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/layouts/gym/gym.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomePageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#40#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="e#1313#6190#1#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/DynamicRoutes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2066,7 +2031,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="87" column="23" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
           <folding>
-            <element signature="e#130#1130#1#PHP" expanded="false" />
+            <element signature="e#1313#6190#1#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2075,7 +2040,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2083,7 +2047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2164,7 +2127,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2172,7 +2134,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2222,7 +2183,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2238,7 +2198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2246,7 +2205,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09041981">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2258,45 +2216,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/ajax/comments/simple_comment.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.033334">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <element signature="e#1253#6130#1#PHP" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin_template/js/laravel-dynamic-modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin_template/js/flot-data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin_template/js/fancywebsocket.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin_template/js/admin-tables-actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.4">
+        <state vertical-scroll-proportion="0.72335845">
           <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomePageController.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.6">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/views/index/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.18083961">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="e#1313#6190#1#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/front/layouts/gym/gym.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18492344">
-          <caret line="162" column="26" selection-start-line="162" selection-start-column="26" selection-end-line="162" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.66092575">
+          <caret line="245" column="18" selection-start-line="245" selection-start-column="18" selection-end-line="245" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34337997">
+          <caret line="1092" column="9" selection-start-line="1092" selection-start-column="9" selection-end-line="1092" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin_template/js/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-59.37931">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding>
+            <marker date="1453841786081" expanded="true" signature="239:257" placeholder="..." />
+            <marker date="1453841786081" expanded="true" signature="1832:1850" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/views/index/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.988506">
+          <caret line="673" column="37" selection-start-line="673" selection-start-column="37" selection-end-line="673" selection-end-column="37" />
+          <folding>
+            <element signature="e#22392#22430#0#HTML" expanded="true" />
+            <element signature="e#22458#22542#0#HTML" expanded="true" />
+            <element signature="e#22599#22620#0#HTML" expanded="true" />
+            <element signature="e#22651#22670#0#HTML" expanded="true" />
+            <element signature="e#23843#23870#0#HTML" expanded="true" />
+            <element signature="e#24090#24163#0#HTML" expanded="true" />
+            <element signature="e#24568#24609#0#HTML" expanded="true" />
+            <element signature="e#24705#24724#0#HTML" expanded="true" />
+            <element signature="e#24842#24902#0#HTML" expanded="true" />
+            <element signature="e#25001#25022#0#HTML" expanded="true" />
+            <element signature="e#25936#25982#0#HTML" expanded="true" />
+            <element signature="e#26079#26102#0#HTML" expanded="true" />
+            <element signature="e#26460#26481#0#HTML" expanded="true" />
+            <element signature="e#27278#27296#0#HTML" expanded="true" />
+            <element signature="e#27406#27432#0#HTML" expanded="true" />
+            <element signature="e#27610#27636#0#HTML" expanded="true" />
+            <element signature="e#27790#27831#0#HTML" expanded="true" />
+            <element signature="e#27903#27922#0#HTML" expanded="true" />
+            <element signature="e#28039#28099#0#HTML" expanded="true" />
+            <element signature="e#28495#28541#0#HTML" expanded="true" />
+            <element signature="e#28650#28668#0#HTML" expanded="true" />
+            <element signature="e#28778#28804#0#HTML" expanded="true" />
+            <element signature="e#28982#29008#0#HTML" expanded="true" />
+            <element signature="e#29133#29174#0#HTML" expanded="true" />
+            <element signature="e#29257#29276#0#HTML" expanded="true" />
+            <element signature="e#29459#29519#0#HTML" expanded="true" />
+            <element signature="e#29872#29918#0#HTML" expanded="true" />
+            <element signature="e#30029#30047#0#HTML" expanded="true" />
+            <element signature="e#30144#30170#0#HTML" expanded="true" />
+            <element signature="e#30352#30378#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomePageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4348762">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+          <folding>
+            <element signature="e#40#62#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

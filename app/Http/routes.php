@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\Admin\EmailsController;
 
-
+Route::get('processub', 'HomePageController@subProcessor');
 //front routing
 Route::group(['middleware' => ['acl', 'activity_log']], function() {
 
@@ -15,6 +15,7 @@ Route::group(['middleware' => ['acl', 'activity_log']], function() {
     Route::post('comments/add', 'ArticleCommentsController@add');
     Route::get('tags/{tags}', 'TagsController@show');
     Route::get('home', 'HomeController@index');
+
 
     Route::bind('tasks', function($value, $route) {
         return App\Task::whereSlug($value)->first();
