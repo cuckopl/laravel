@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/gym/js/script.js" afterPath="$PROJECT_DIR$/public/gym/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/layouts/gym/gym.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/layouts/gym/gym.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/front/views/index/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/front/views/index/index.blade.php" />
     </list>
     <ignored path="laravel4.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1584,11 +1583,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/front/views/index/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3326157">
-              <caret line="484" column="39" selection-start-line="484" selection-start-column="39" selection-end-line="484" selection-end-column="39" />
+            <state vertical-scroll-proportion="-37.1">
+              <caret line="135" column="30" selection-start-line="135" selection-start-column="30" selection-end-line="135" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -1597,8 +1596,8 @@
       <file leaf-file-name="gym.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/front/layouts/gym/gym.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.5084746">
-              <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+            <state vertical-scroll-proportion="-5.440678">
+              <caret line="241" column="0" selection-start-line="241" selection-start-column="4" selection-end-line="242" selection-end-column="52" />
               <folding>
                 <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -1618,11 +1617,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/gym/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="47" column="4" selection-start-line="47" selection-start-column="6" selection-end-line="48" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.38412017">
+              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding>
                 <element signature="e#1328#1505#0" expanded="false" />
               </folding>
@@ -1643,9 +1642,9 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomePageController.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/views/index/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/front/layouts/gym/gym.blade.php" />
         <option value="$PROJECT_DIR$/public/gym/js/script.js" />
-        <option value="$PROJECT_DIR$/resources/views/front/views/index/index.blade.php" />
       </list>
     </option>
   </component>
@@ -2265,31 +2264,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/gym/js/script.js">
+    <entry file="file://$PROJECT_DIR$/resources/views/front/views/index/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="4" selection-start-line="47" selection-start-column="6" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <element signature="e#1328#1505#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-37.1">
+          <caret line="135" column="30" selection-start-line="135" selection-start-column="30" selection-end-line="135" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/front/layouts/gym/gym.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.5084746">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        <state vertical-scroll-proportion="-5.440678">
+          <caret line="241" column="0" selection-start-line="241" selection-start-column="4" selection-end-line="242" selection-end-column="52" />
           <folding>
             <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/views/index/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/gym/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3326157">
-          <caret line="484" column="39" selection-start-line="484" selection-start-column="39" selection-end-line="484" selection-end-column="39" />
-          <folding />
+        <state vertical-scroll-proportion="0.38412017">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding>
+            <element signature="e#1328#1505#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

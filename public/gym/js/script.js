@@ -64,15 +64,17 @@
 
 
 	/*****************************  $GMaps  ********************************/
-	var map = new GMaps({ 
-		div: '#map', 
-		lat: 48.858093, 
-		lng: 2.294694,
-		disableDefaultUI: true,
-	});
-	
-	map.addMarker({ lat: 48.858093, lng: 2.294694  });
-	
+
+
+	//var map = new GMaps({
+	//	div: '#map',
+	//	lat: 48.858093,
+	//	lng: 2.294694,
+	//	disableDefaultUI: true,
+	//});
+	//
+	//map.addMarker({ lat: 48.858093, lng: 2.294694  });
+	//
 
 
 	/*************************  $Login Animation  **************************/

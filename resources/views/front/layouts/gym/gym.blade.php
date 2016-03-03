@@ -239,8 +239,8 @@
 <script src="js/jquery.bgYtVideo.js"></script>
 
 <!-- Gmaps -->
-<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-<script src="/gym/js/vendors/gmaps.js"></script>
+{{--<script src="http://maps.google.com/maps/api/js?sensor=true"></script>--}}
+{{--<script src="/gym/js/vendors/gmaps.js"></script>--}}
 
 <!-- Login Animation -->
 <script src="/gym/js/vendors/classie.js"></script>
