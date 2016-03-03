@@ -45,7 +45,7 @@
 		}
 	});
 	/*************************  $Background Video  *************************/
-	$('.bgvideo').bgYtVideo();
+	//$('.bgvideo').bgYtVideo();
 
 
 

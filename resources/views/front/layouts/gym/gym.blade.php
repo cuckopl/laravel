@@ -4,6 +4,9 @@
     <!-- Define Charset -->
     <meta charset="utf-8"/>
 
+    <!-- jQuery -->
+    <script src="/gym/js/vendors/jquery/jquery-1.9.1.min.js"></script>
+
     <!-- Page Title -->
     <title>GYM Guide Center Landing</title>
 
@@ -49,55 +52,6 @@
 
     <!-- Modernizr -->
     <script src="/gym/js/vendors/modernizr.custom.js"></script>
-
-
-    <!-- ******************************************************************** -->
-    <!-- ************************* Javascript Files ************************* -->
-    <!-- jQuery -->
-    <script src="/gym/js/vendors/jquery/jquery-1.9.1.min.js"></script>
-
-    <!-- Respond.js media queries for IE8 -->
-    <script src="/gym/js/vendors/respond.min.js"></script>
-
-    <!-- Bootstrap-->
-    <script src="/gym/js/vendors/bootstrap.min.js"></script>
-
-    <!-- One Page Scroll -->
-    <script src="/gym/js/vendors/jquery/jquery.nav.js"></script>
-
-    <!-- Isotope -->
-    <script src="/gym/js/vendors/jquery/jquery.isotope.min.js"></script>
-
-    <!-- Owl Carousel -->
-    <script src="/gym/js/vendors/owl.carousel/owl.carousel.min.js"></script>
-
-    <!-- Fancybox -->
-    <script src="/gym/js/vendors/fancybox/jquery.fancybox.js"></script>
-
-    <!-- Appear -->
-    <script src="/gym/js/vendors/jquery/jquery.appear.js"></script>
-
-    <!-- bgYtVideo -->
-    <script src="js/jquery.bgYtVideo.js"></script>
-
-    <!-- Gmaps -->
-    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-    <script src="/gym/js/vendors/gmaps.js"></script>
-
-    <!-- Login Animation -->
-    <script src="/gym/js/vendors/classie.js"></script>
-    <script src="/gym/js/vendors/uiMorphingButton_fixed.js"></script>
-
-    <!-- Placeholder.js -->
-    <!--[if lte IE 9]>
-    <script src="/gym/js/vendors/placeholder.js"></script>
-    <script>Placeholder.init();</script> <![endif]-->
-
-    <!-- Custom -->
-    <script src="/gym/js/script.js"></script>
-
-    <!-- *********************** End Javascript Files *********************** -->
-    <!-- ******************************************************************** -->
 
 
 </head>
@@ -177,8 +131,7 @@
 
 <!--content-->
 @yield('content')
-<!--end content-->
-
+        <!--end content-->
 
 
 <!-- Footer -->
@@ -257,8 +210,55 @@
 </div>
 
 
+<!-- ******************************************************************** -->
+<!-- ************************* Javascript Files ************************* -->
 
+
+<!-- Respond.js media queries for IE8 -->
+<script src="/gym/js/vendors/respond.min.js"></script>
+
+<!-- Bootstrap-->
+<script src="/gym/js/vendors/bootstrap.min.js"></script>
+
+<!-- One Page Scroll -->
+<script src="/gym/js/vendors/jquery/jquery.nav.js"></script>
+
+<!-- Isotope -->
+<script src="/gym/js/vendors/jquery/jquery.isotope.min.js"></script>
+
+<!-- Owl Carousel -->
+<script src="/gym/js/vendors/owl.carousel/owl.carousel.min.js"></script>
+
+<!-- Fancybox -->
+<script src="/gym/js/vendors/fancybox/jquery.fancybox.js"></script>
+
+<!-- Appear -->
+<script src="/gym/js/vendors/jquery/jquery.appear.js"></script>
+
+<!-- bgYtVideo -->
+<script src="js/jquery.bgYtVideo.js"></script>
+
+<!-- Gmaps -->
+<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="/gym/js/vendors/gmaps.js"></script>
+
+<!-- Login Animation -->
+<script src="/gym/js/vendors/classie.js"></script>
+<script src="/gym/js/vendors/uiMorphingButton_fixed.js"></script>
+
+<!-- Placeholder.js -->
+<!--[if lte IE 9]>
+<script src="/gym/js/vendors/placeholder.js"></script>
+<script>Placeholder.init();</script> <![endif]-->
+
+<!-- Custom -->
+<script src="/gym/js/script.js"></script>
+
+<!-- *********************** End Javascript Files *********************** -->
+<!-- ******************************************************************** -->
 
 
 </body>
 </html>
+
+
