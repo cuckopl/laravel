@@ -74,47 +74,23 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse">
+                @if (Auth::guest())
+                    <ul class="nav navbar-nav navbar-right login-navbar">
+                        <li class="login-button">
+                            <a style="color:orangered;margin:5px;" type="button" href="{{url('/auth/login')}}">Login</a>
+                        </li>
+                        <li class="login-button">
+                            <a style="color:orangered;margin:5px;"  type="button" href="{{url('/auth/register')}}">singup</a>
+                        </li>
+                    </ul>
+                @else
+                    <ul class="nav navbar-nav navbar-right login-navbar ">
+                        <li class="login-button">
+                            <a style="color:orangered;margin:5px;" type="button" href="{{url('/auth/logout')}}">Logout</a>
+                        </li>
+                    </ul>
 
-                <ul class="nav navbar-nav navbar-right login-navbar ">
-                    <li class="login-button">
-                        <button type="button">Login</button>
-                        <div class="login-content login-content-login">
-                            <div>
-                                <div class="login-forms">
-                                    <i class="icon-cancel">Close the dialog</i>
-                                    <h2>Login</h2>
-                                    <form>
-                                        <p><label>Email</label><input type="text"></p>
-                                        <p><label>Password</label><input type="password"></p>
-                                        <p>
-                                            <button>Login</button>
-                                        </p>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="login-button">
-                        <button type="button">singup</button>
-                        <div class="login-content login-content-singup">
-                            <div>
-                                <div class="login-forms">
-                                    <i class="icon-cancel">Close the dialog</i>
-                                    <h2>Sign Up</h2>
-                                    <form>
-                                        <p><label>Email</label><input type="text"></p>
-                                        <p><label>Password</label><input type="password"></p>
-                                        <p><label>Repeat Password</label><input type="password"></p>
-                                        <p>
-                                            <button>Sign Up</button>
-                                        </p>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-
+                @endif
                 <ul class="nav navbar-nav navbar-right menu-effect">
                     <li><a href="/">Home</a></li>
                     <li><a href="{{route('indexImages')}}">Tapety</a></li>

@@ -11,13 +11,14 @@ use App\Model\User;
  *
  * @author Pawel
  */
-class AclRoutePermission extends \Kodeine\Acl\Middleware\HasPermission {
+class AclRoutePermission extends \Kodeine\Acl\Middleware\HasPermission
+{
 
-    public function handle($request, Closure $next) {
+    public function handle($request, Closure $next)
+    {
         $this->request = $request;
         $this->crudConfigOverride();
         $user = $request->user();
-
 
 
         if ($this->canContinue($user)) {
@@ -31,11 +32,8 @@ class AclRoutePermission extends \Kodeine\Acl\Middleware\HasPermission {
         return abort(401, 'You are not authorized to access this resource.');
     }
 
-    public function getUser() {
-        
-    }
-
-    protected function canContinue($user) {
+    protected function canContinue($user)
+    {
         if (!$user instanceof \Illuminate\Database\Eloquent\Model) {
             $defaultUser = config('acl.defaultUser');
             $user = User::where('name', '=', $defaultUser)->firstOrFail();

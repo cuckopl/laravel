@@ -6,12 +6,8 @@ use App\Http\Controllers\Controller;
 
 class BaseController extends Controller {
 
-    protected function flashMessanger($message) {
-        
-    }
+    protected $data;
 
-    protected function controllerSessionContainer() {
-        
-    }
+
 
 }

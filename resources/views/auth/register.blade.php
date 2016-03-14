@@ -1,7 +1,7 @@
-@extends('app')
+@extends('front/layouts/gym/gym')
 
 @section('content')
-<div class="white">
+<div class="white" style="margin-top:100px;">
     <div class="pos-center white" style="padding:3%;">
         <div class="container-fluid">
             <div class="row">

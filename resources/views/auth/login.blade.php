@@ -1,4 +1,4 @@
-@extends('app')
+@extends('front/layouts/gym/gym')
 
 @section('content')
 <div class="white">

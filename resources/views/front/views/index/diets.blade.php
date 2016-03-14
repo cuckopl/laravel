@@ -10,7 +10,6 @@
                         <ul class="pricing-item">
                             <li>Dieta {{$key}}</li>
                             <li>{{$image}}</li>
-
                             <li><a href="/material/Diety/{{$image}}" class="btn">Pobierz</a></li>
                         </ul>
                     </div>
