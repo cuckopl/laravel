@@ -11,6 +11,8 @@ Route::group(['middleware' => ['acl', 'activity_log']], function () {
     Route::get('/', ['uses' => 'HomePageController@index']);
 
     Route::get('/images', ['as' => 'indexImages', 'uses' => 'HomePageController@images']);
+    Route::get('/sounds', ['as' => 'indexSounds', 'uses' => 'HomePageController@sounds']);
+    Route::get('/diet', ['as' => 'indexDiet', 'uses' => 'HomePageController@diet']);
 
     Route::post('comments/get', 'ArticleCommentsController@get');
     Route::post('comments/add', 'ArticleCommentsController@add');

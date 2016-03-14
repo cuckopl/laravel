@@ -118,8 +118,8 @@
                 <ul class="nav navbar-nav navbar-right menu-effect">
                     <li><a href="/">Home</a></li>
                     <li><a href="{{route('indexImages')}}">Tapety</a></li>
-                    <li><a href="#testimonials">Dzownki</a></li>
-                    <li><a href="#pricing">Treningi</a></li>
+                    <li><a href="{{route('indexSounds')}}">Dzwonki</a></li>
+                    <li><a href="{{route('indexDiet')}}">Treningi</a></li>
                 </ul>
 
             </div><!--/.nav-collapse -->
