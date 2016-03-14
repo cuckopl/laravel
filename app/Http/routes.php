@@ -4,12 +4,13 @@ use App\Http\Controllers\Admin\EmailsController;
 
 Route::get('processub', 'HomePageController@subProcessor');
 //front routing
-Route::group(['middleware' => ['acl', 'activity_log']], function() {
+Route::group(['middleware' => ['acl', 'activity_log']], function () {
 
     Route::model('tasks', 'Task');
     Route::model('projects', 'Project');
     Route::get('/', ['uses' => 'HomePageController@index']);
 
+    Route::get('/images', ['as' => 'indexImages', 'uses' => 'HomePageController@images']);
 
     Route::post('comments/get', 'ArticleCommentsController@get');
     Route::post('comments/add', 'ArticleCommentsController@add');
@@ -17,10 +18,10 @@ Route::group(['middleware' => ['acl', 'activity_log']], function() {
     Route::get('home', 'HomeController@index');
 
 
-    Route::bind('tasks', function($value, $route) {
+    Route::bind('tasks', function ($value, $route) {
         return App\Task::whereSlug($value)->first();
     });
-    Route::bind('projects', function($value, $route) {
+    Route::bind('projects', function ($value, $route) {
         return App\Project::whereSlug($value)->first();
     });
 
@@ -42,7 +43,7 @@ Route::group(['middleware' => ['acl', 'activity_log']], function() {
 
 
 //Admin routing
-Route::group(['namespace' => 'Admin', 'middleware' => ['acl', 'activity_log'], 'prefix' => '/admin'], function() {
+Route::group(['namespace' => 'Admin', 'middleware' => ['acl', 'activity_log'], 'prefix' => '/admin'], function () {
 
 // controller admin
     Route::get('/', ['as' => 'adminIndex', 'uses' => 'AdminController@index']);
@@ -95,10 +96,9 @@ Route::group(['namespace' => 'Admin', 'middleware' => ['acl', 'activity_log'], '
     Route::get('/dynamic/dataTable', ['as' => 'DynamicRoutesDataTable', 'uses' => 'DynamicRoutes@dataTable']);
 
 
-
 //asdasd
 //DATA TABLE route group
-    Route::group(['namespace' => 'TableControllers', 'middleware' => ['acl'], 'prefix' => '/table'], function() {
+    Route::group(['namespace' => 'TableControllers', 'middleware' => ['acl'], 'prefix' => '/table'], function () {
         //Permision table role controller
         Route::get('/acl/get-permission-table', ['as' => 'aclGetPremissionTable', 'uses' => 'PermissionTableController@getPermissionTable']);
         //acl table role controller 

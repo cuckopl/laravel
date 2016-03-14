@@ -116,11 +116,10 @@
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right menu-effect">
-                    <li class="active"><a href="#home">Home</a></li>
-                    <li><a href="#coaches">Coaches</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
-                    <li><a href="#pricing">Pricing</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="{{route('indexImages')}}">Tapety</a></li>
+                    <li><a href="#testimonials">Dzownki</a></li>
+                    <li><a href="#pricing">Treningi</a></li>
                 </ul>
 
             </div><!--/.nav-collapse -->

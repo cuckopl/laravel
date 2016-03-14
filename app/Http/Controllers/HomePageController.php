@@ -24,6 +24,32 @@ class HomePageController extends Controller
     }
 
 
+    public function images()
+    {
+        $images =  $this->scanDir(public_path().'/material/Tapety');
+        return view('front/views/index/images',compact('images'));
+    }
+
+    public function diet()
+    {
+
+    }
+
+    public function sounds()
+    {
+
+    }
+
+    public static function scanDir($dir, $oder = 'ASC') {
+
+        $list = scandir($dir);
+        unset($list[0],$list[1]);
+        return $list;
+
+    }
+
+
+
     public function subProcessor()
     {
 
