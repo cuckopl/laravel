@@ -11,7 +11,7 @@ use App\User;
 
 class AuthController extends Controller {
 
-    protected $redirectTo = 'articles';
+    protected $redirectTo = '/';
 
     /*
       |--------------------------------------------------------------------------
