@@ -3,12 +3,24 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests;
-use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
+use App\Model\Subservices\LeadCounterModel;
+use Illuminate\Support\Facades\View;
 use Session;
+use Auth;
 
-class HomePageController extends Controller
+class HomePageController extends BaseController
 {
+
+    public function __construct()
+    {
+
+        if (!Auth::check()) {
+            return;
+        }
+        View::share('templateVarPoints', LeadCounterModel::factory()->sumUserPoint(Auth::user()));
+        View::share('templateVarUserActive', $this->checkUserIsActivate());
+    }
+
 
     /**
      * Display a listing of the resource.
@@ -17,27 +29,37 @@ class HomePageController extends Controller
      */
     public function index()
     {
+        $this->data['active'] = $this->checkUserIsActivate();
         $articlesTop = \App\Article::latest('published_at')->published()->limit(8)->get();
         $articlesRandom = \App\Article::latest('published_at')->published()->orderByRaw("RAND()")->limit(3)->get();
         $comments = \App\ArticleComments::latest('created_at')->limit(6)->get();
-        return view('front/views/index/index');
+        return view('front/views/index/index', $this->data);
     }
 
 
     public function images()
     {
+        if ($this->checkUserIsActivate()) {
+            return redirect()->action('HomePageController@index');
+        }
         $images = $this->scanDir(public_path() . '/material/Tapety');
         return view('front/views/index/images', compact('images'));
     }
 
     public function diet()
     {
+        if ($this->checkUserIsActivate()) {
+            return redirect()->action('HomePageController@index');
+        }
         $diets = $this->scanDir(public_path() . '/material/Diety');
         return view('front/views/index/diets', compact('diets'));
     }
 
     public function sounds()
     {
+        if ($this->checkUserIsActivate()) {
+            return redirect()->action('HomePageController@index');
+        }
         $sounds = $this->scanDir(public_path() . '/material/Dzwonki');
         return view('front/views/index/sounds', compact('sounds'));
     }

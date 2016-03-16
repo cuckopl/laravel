@@ -77,25 +77,27 @@
                 @if (Auth::guest())
                     <ul class="nav navbar-nav navbar-right login-navbar">
                         <li class="login-button">
-                            <a style="color:orangered;margin:5px;" type="button" href="{{url('/auth/login')}}">Login</a>
+                            <a style="color:orangered;margin:5px;" type="button" href="{{url('/auth/login')}}">Panel</a>
                         </li>
                         <li class="login-button">
-                            <a style="color:orangered;margin:5px;"  type="button" href="{{url('/auth/register')}}">singup</a>
+                            <a style="color:orangered;margin:5px;"  type="button" href="{{url('/auth/register')}}">Rejestracja</a>
                         </li>
                     </ul>
                 @else
                     <ul class="nav navbar-nav navbar-right login-navbar ">
                         <li class="login-button">
-                            <a style="color:orangered;margin:5px;" type="button" href="{{url('/auth/logout')}}">Logout</a>
+                            <a style="color:orangered;margin:5px;" type="button" href="{{url('/auth/logout')}}">Wyloguj</a>
+                        </li> <li class="login-button">
+                            <a style="color:orangered;margin:5px;" type="button" href="#!">pkt: {{$templateVarPoints}}</a>
                         </li>
                     </ul>
-
+ s
                 @endif
                 <ul class="nav navbar-nav navbar-right menu-effect">
                     <li><a href="/">Home</a></li>
                     <li><a href="{{route('indexImages')}}">Tapety</a></li>
                     <li><a href="{{route('indexSounds')}}">Dzwonki</a></li>
-                    <li><a href="{{route('indexDiet')}}">Treningi</a></li>
+                    <li><a href="{{route('indexDiet')}}">Treningi i Dieta</a></li>
                 </ul>
 
             </div><!--/.nav-collapse -->

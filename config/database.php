@@ -73,6 +73,27 @@ return [
 //			'strict'    => false,
 		],
 
+		'mysql_sub' => [
+			'driver'    => 'mysql',
+			'host'      => env('DB_HOST', 'localhost'),
+			'database'  => env('DB_DATABASE', 'subservice'),
+			'username'  => env('DB_USERNAME', 'root'),
+			'password'  => env('DB_PASSWORD', 'medal1'),
+			'charset'   => 'utf8',
+			'collation' => 'utf8_unicode_ci',
+			'prefix'    => '',
+			'strict'    => false,
+//			'driver'    => 'mysql',
+//			'host'      => env('DB_HOST', 'localhost'),
+//			'database'  => env('DB_DATABASE', 'cuckopl_root'),
+//			'username'  => env('DB_USERNAME', 'cuckopl_root'),
+//			'password'  => env('DB_PASSWORD', '0fELtdOs'),
+//			'charset'   => 'utf8',
+//			'collation' => 'utf8_unicode_ci',
+//			'prefix'    => '',
+//			'strict'    => false,
+		],
+
 		'pgsql' => [
 			'driver'   => 'pgsql',
 			'host'     => env('DB_HOST', 'localhost'),

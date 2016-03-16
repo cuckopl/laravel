@@ -29,7 +29,8 @@ class AclRoutePermission extends \Kodeine\Acl\Middleware\HasPermission
             return response()->json(['status' => true, 'info' => $info]);
         }
 
-        return abort(401, 'You are not authorized to access this resource.');
+        return redirect()->guest('auth/login');
+//        return abort(401, 'You are not authorized to access this resource.');
     }
 
     protected function canContinue($user)
