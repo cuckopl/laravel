@@ -5,3 +5,4 @@
 nbproject
 config
 /public/material
+/config/database.php
