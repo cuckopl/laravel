@@ -16,6 +16,8 @@
                                     data-loading-text="Sending...">
                                 Aktwuj dostep
                             </button>
+                            <p style="color:orangered;font-weight: 600;"> Koszt wysłania wiadomości o treści FIT na numer 60330 wynosi 3,69zł brutto (3zł netto) /dzień</p>
+
                         @else
                             @if ($templateVarUserActive)
                                 <h1>Witamy w Jedz-Eco</h1>
@@ -24,6 +26,7 @@
                                         data-loading-text="Sending...">
                                     Aktwuj dostep
                                 </button>
+                                <p style="color:orangered;font-weight: 600;"> Koszt wysłania wiadomości o treści FIT na numer 60330 wynosi 3,69zł brutto (3zł netto) /dzień</p>
                             @else
                                 <h1>Dziękujemy!</h1>
                                 <h3>Twoje konto jest w pelni aktywowane. Przegladaj i pobieraj swoje treningi</h3>
@@ -55,23 +58,25 @@
                 <div class="col-sm-6 col-md-4 features-item animated" data-animation="fadeInLeftBig"
                      data-animation-delay="200">
                     <i class="icon-users"></i>
-                    <h4>Who we train</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, dolorem, neque sit dolorum
-                        accusamus rerum quibusdam.</p>
+                    <h4>                     Dla kogo?
+                    </h4>
+                    <p>
+                        Dla każdego kto chce zacząć prowadzić zdrowy tryb życia, zmienić dietę, lub sprawdzić czy poprawnie wykonuje ćwiczenia.
+                    </p>
                 </div>
                 <div class="col-sm-6 col-md-4 features-item animated" data-animation="fadeInUpBig"
                      data-animation-delay="200">
                     <i class="icon-clock"></i>
-                    <h4>Who we train</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, dolorem, neque sit dolorum
-                        accusamus rerum quibusdam.</p>
+                    <h4> Jak dlugo?</h4>
+                    <p>
+                        Usługa aktywowana jest na czas nieograniczony, otrzymuj codziennie nowinki na temat zdrowego trybu życia!
                 </div>
                 <div class="col-sm-6 col-sm-offset-3 col-md-4 col-sm-offset-0 features-item animated"
                      data-animation="fadeInRightBig" data-animation-delay="200">
                     <i class="icon-chart-bar"></i>
-                    <h4>Who we train</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, dolorem, neque sit dolorum
-                        accusamus rerum quibusdam.</p>
+                    <h4>Co otrzymujemy?</h4>
+                    <p>                        W ramach usługi otrzymujemy bogaty pakiet diet dla każdego, a także szeroki zakres ćwiczeń i plan treningowy dla każdego.</p>
+                    </p>
                 </div>
             </div>
 
@@ -549,14 +554,15 @@
                                 id='show-small-reg' href="#"> (czytaj więcej)</a> </br>
                     </div>
                     <div id='reg-small' style="display:none;">
-                        Koszt wysłania SMS na numer 92550 wynosi 3zł  (3,69zł brutto)
-                        Przyjmuję do wiadomości, iż zamawiam treści cyfrowe nie zapisane na nośniku materialnym i wyrażam zgodę na rozpoczęcie spełniania świadczenia przed upływem terminu do odstąpienia od umowy oraz potwierdzam, że jestem świadomy utraty prawa odstąpienia od umowy z chwilą rozpoczęcia spełniania świadczenia. Akceptuję regulamin i wyrażam zgodę na rozpoczęcie świadczenia usługi przed upływem terminu na odstąpienie od umowy (14 dni). Wiem, że tracę ustawowe prawo do odstąpienia, ale mogę w każdej chwili wypowiedzieć umowę. Rozumiem, że zamówienie usługi wiąże się z obowiązkiem zapłaty.
-                        Reklamacje: reklamacje@jedz-eco.pl
+
                     </div>
+                    Koszt wysłania wiadomości o treści FIT na numer 60330 wynosi 3,69zł brutto (3zł netto)
+                    Przyjmuję do wiadomości, iż zamawiam treści cyfrowe nie zapisane na nośniku materialnym i wyrażam zgodę na rozpoczęcie spełniania świadczenia przed upływem terminu do odstąpienia od umowy oraz potwierdzam, że jestem świadomy utraty prawa odstąpienia od umowy z chwilą rozpoczęcia spełniania świadczenia. Akceptuję regulamin i wyrażam zgodę na rozpoczęcie świadczenia usługi przed upływem terminu na odstąpienie od umowy (14 dni). Wiem, że tracę ustawowe prawo do odstąpienia, ale mogę w każdej chwili wypowiedzieć umowę. Rozumiem, że zamówienie usługi wiąże się z obowiązkiem zapłaty.
+                    Reklamacje: reklamacje@jedz-eco.pl
                     <div id='reg_error' style="color:red;"></div>
                     </br>
                     <button class="myButton button-small" onclick="step1()" style="margin-left: auto;" value="Aktwuj"
-                            name='submit'>Weryfikuj
+                            name='submit'>Zamawiam i Place
                     </button>
                     <br>
                     <input id="title_site" type="text" style="visibility: hidden" value="<?php echo '55f1a7233a071' ?>">
@@ -584,7 +590,7 @@
                     <div id='reg_error' style="color:red;"></div>
                     </br>
                     <button class="myButton button-small" onclick="step2()" style="margin-left: auto;" value="Aktwuj"
-                            name='submit'>Weryfikuj
+                            name='submit'>Zamawiam i Place
                     </button>
                     <br>
                     <input id="title_site" type="text" style="visibility: hidden" value="">

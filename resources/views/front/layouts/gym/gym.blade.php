@@ -8,7 +8,7 @@
     <script src="/gym/js/vendors/jquery/jquery-1.9.1.min.js"></script>
 
     <!-- Page Title -->
-    <title>GYM Guide Center Landing</title>
+    <title>Jedz Eco PL</title>
 
     <!-- Responsive Metatag -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
