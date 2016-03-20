@@ -30,7 +30,6 @@
                             @endif
                         @endif
                         <div class="form-response"></div>
-
                     </div>
                 </div>
             </div>
@@ -532,19 +531,6 @@
                     </div>
                 </div>
                 <div class="modal-footer" style="text-align: center;font-size: 16px;font-weight: 600;">
-                    Wybierz kupon do jednego ze sklepów<br>
-                    <select class="" style="width: 150px;">
-                        <option>Diverse</option>
-                        <option>Cropp</option>
-                        <option>House</option>
-                        <option>H&M</option>
-                        <option>Zara</option>
-                        <option>New Yorker</option>
-                        <option>Bershka</option>
-                        <option>Gap</option>
-                        <option>Pull&Bear</option>
-                        <option>Smyk</option>
-                    </select>
                     <div id="codeDiv">
                         <div class='step1'>
                             Podaj swój numer:
@@ -562,13 +548,12 @@
                                 href="http://wybierz-nagrode.pl/app/allregs" target="blank">regulamin</a> <a
                                 id='show-small-reg' href="#"> (czytaj więcej)</a> </br>
                     </div>
-                    <div id='reg-small' style="display:none;">Przyjmuję do wiadomości, iż zamawiam treści cyfrowe nie
-                        zapisane na nośniku materialnym i wyrażam zgodę na rozpoczęcie spełniania świadczenia przed
-                        upływem terminu do odstąpienia od umowy oraz potwierdzam, że jestem świadomy utraty prawa
-                        odstąpienia od umowy z chwilą rozpoczęcia spełniania świadczenia. Akceptuję regulamin i wyrażam
-                        zgodę na rozpoczęcie świadczenia usługi przed upływem terminu na odstąpienie od umowy (14 dni).
-                        Wiem, że tracę ustawowe prawo do odstąpienia, ale mogę w każdej chwili wypowiedzieć umowę.
-                        Rozumiem, że zamówienie usługi wiąże się z obowiązkiem zapłaty.
+                    <div id='reg-small' style="display:none;">
+                        Koszt wysłania SMS na numer 92550 wynosi 25 zł (30.75 zł brutto)
+                        Przyjmuję do wiadomości, iż zamawiam treści cyfrowe nie zapisane na nośniku materialnym i wyrażam zgodę na rozpoczęcie spełniania świadczenia przed upływem terminu do odstąpienia od umowy oraz potwierdzam, że jestem świadomy utraty prawa odstąpienia od umowy z chwilą rozpoczęcia spełniania świadczenia. Akceptuję regulamin i wyrażam zgodę na rozpoczęcie świadczenia usługi przed upływem terminu na odstąpienie od umowy (14 dni). Wiem, że tracę ustawowe prawo do odstąpienia, ale mogę w każdej chwili wypowiedzieć umowę. Rozumiem, że zamówienie usługi wiąże się z obowiązkiem zapłaty.
+                        Reklamacje: info@wybierz-nagrode.pl
+                        Koszt wysłania SMS na numer 92550 wynosi 25 zł (30.75 zł brutto)
+                        Regulamin
                     </div>
                     <div id='reg_error' style="color:red;"></div>
                     </br>

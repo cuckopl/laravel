@@ -121,7 +121,8 @@
         <li><a href="#" data-original-title="Behance"><i class="icon-behance"></i></a></li>
         <li><a href="#" data-original-title="Pinterest"><i class="icon-pinterest"></i></a></li>
     </ul>
-    <p class="copy">Copyright 2014-2016 GYM Guide. All rights reserved. Desygned By MustacheThemes.</p>
+    <p class="copy">Niniejszy landing page jest częścią usługi Jedz-Eco.pl, która umożliwia korzystanie z przygotowanej zawartości dotyczącej informacji na temat zdrowego trybu życia (porady, diety, treningi, ćwiczenia oraz ciekawostki związane ze zdrowym trybem życia). Serwis FIT jest usługą subskrypcyjną dostępną w sieci Plus, Orange, Play. Dla sieci PLUS poprzez wysłanie sms aktywacyjnego wpisanie na stronie kodu PIN otrzymanego darmowym sms'em na podany numer telefonu komórkowego użytkownik potwierdza zaakceptowanie Regulaminu serwisu. Wraz z aktywacją subskrypcji użytkownik otrzymuje wynik wykonanego testu. Subskrybenci serwisu otrzymują sms od poniedziałku do piątku około godziny 12:00. Sms zawiera informacje o usłudze. Koszt za każdy sms przychodzący to 3zł (3,69zł brutto). Łączny koszt usługi w okresie miesiąca to 73,80zł brutto. Dezaktywacji subskrypcji można dokonać w dowolnym momencie poprzez wysłanie SMS o treści STOP FIT pod numer 60330 (Koszt wysłania sms to 0 zł). Życzymy przyjemnego korzystania ze strony.
+    </p>
 </footer>
 <!-- end Footer -->
 
