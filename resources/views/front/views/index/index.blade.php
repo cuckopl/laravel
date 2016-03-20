@@ -549,7 +549,7 @@
                     </div>
                     <div style='font-size:10px;'>
 
-                        <input class="reg" type="checkbox" checked="checked"> Akceptuje <a
+                        <input class="reg" type="checkbox" > Akceptuje <a
                                 href="/docs/regulamin_FIT.pdf" target="blank">regulamin</a> <a
                                 id='show-small-reg' href="#"> (czytaj więcej)</a> </br>
                     </div>
