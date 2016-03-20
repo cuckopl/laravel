@@ -560,7 +560,8 @@
                     Koszt wysłania wiadomości o treści FIT na numer 60330 wynosi 3,69zł brutto (3zł netto)
                     Przyjmuję do wiadomości, iż zamawiam treści cyfrowe nie zapisane na nośniku materialnym i wyrażam zgodę na rozpoczęcie spełniania świadczenia przed upływem terminu do odstąpienia od umowy oraz potwierdzam, że jestem świadomy utraty prawa odstąpienia od umowy z chwilą rozpoczęcia spełniania świadczenia. Akceptuję regulamin i wyrażam zgodę na rozpoczęcie świadczenia usługi przed upływem terminu na odstąpienie od umowy (14 dni). Wiem, że tracę ustawowe prawo do odstąpienia, ale mogę w każdej chwili wypowiedzieć umowę. Rozumiem, że zamówienie usługi wiąże się z obowiązkiem zapłaty.
                     Reklamacje: reklamacje@jedz-eco.pl
-                    <a href="/docs/regulamin_FIT.pdf" target="blank">regulamin</a>
+                    </br>
+                    <a href="/docs/regulamin_FIT.pdf" target="blank">Link do regulaminu</a>
                     <div id='reg_error' style="color:red;"></div>
                     </br>
                     <button class="myButton button-small" onclick="step1()" style="margin-left: auto;" value="Aktwuj"

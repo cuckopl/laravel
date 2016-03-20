@@ -1585,14 +1585,14 @@
         <entry file="file://$PROJECT_DIR$/resources/views/front/views/index/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.59">
-              <caret line="562" column="22" selection-start-line="562" selection-start-column="22" selection-end-line="562" selection-end-column="22" />
+              <caret line="562" column="25" selection-start-line="562" selection-start-column="25" selection-end-line="562" selection-end-column="25" />
               <folding>
                 <element signature="e#25656#25679#0#HTML" expanded="true" />
-                <marker date="1458500715083" expanded="true" signature="22401:22662" placeholder="..." />
-                <marker date="1458500715083" expanded="true" signature="22414:22661" placeholder="..." />
-                <marker date="1458500715083" expanded="true" signature="22444:22507" placeholder="..." />
-                <marker date="1458500715083" expanded="true" signature="22462:22506" placeholder="..." />
-                <marker date="1458500715083" expanded="true" signature="22539:22653" placeholder="..." />
+                <marker date="1458500825476" expanded="true" signature="22401:22662" placeholder="..." />
+                <marker date="1458500825476" expanded="true" signature="22414:22661" placeholder="..." />
+                <marker date="1458500825476" expanded="true" signature="22444:22507" placeholder="..." />
+                <marker date="1458500825476" expanded="true" signature="22462:22506" placeholder="..." />
+                <marker date="1458500825476" expanded="true" signature="22539:22653" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -2387,14 +2387,14 @@
     <entry file="file://$PROJECT_DIR$/resources/views/front/views/index/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.59">
-          <caret line="562" column="22" selection-start-line="562" selection-start-column="22" selection-end-line="562" selection-end-column="22" />
+          <caret line="562" column="25" selection-start-line="562" selection-start-column="25" selection-end-line="562" selection-end-column="25" />
           <folding>
             <element signature="e#25656#25679#0#HTML" expanded="true" />
-            <marker date="1458500715083" expanded="true" signature="22401:22662" placeholder="..." />
-            <marker date="1458500715083" expanded="true" signature="22414:22661" placeholder="..." />
-            <marker date="1458500715083" expanded="true" signature="22444:22507" placeholder="..." />
-            <marker date="1458500715083" expanded="true" signature="22462:22506" placeholder="..." />
-            <marker date="1458500715083" expanded="true" signature="22539:22653" placeholder="..." />
+            <marker date="1458500825476" expanded="true" signature="22401:22662" placeholder="..." />
+            <marker date="1458500825476" expanded="true" signature="22414:22661" placeholder="..." />
+            <marker date="1458500825476" expanded="true" signature="22444:22507" placeholder="..." />
+            <marker date="1458500825476" expanded="true" signature="22462:22506" placeholder="..." />
+            <marker date="1458500825476" expanded="true" signature="22539:22653" placeholder="..." />
           </folding>
         </state>
       </provider>
