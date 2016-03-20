@@ -547,7 +547,7 @@
                                    style="margin: auto;width:250px; height:30px;" id="number">
                         </div>
                     </div>
-                    <div style='font-size:10px;'>
+                    <div style='font-size:14px;'>
 
                         <input class="reg" type="checkbox" > Akceptuje <a
                                 href="/docs/regulamin_FIT.pdf" target="blank">regulamin</a> <a
