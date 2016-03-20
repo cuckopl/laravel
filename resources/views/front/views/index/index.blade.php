@@ -545,15 +545,13 @@
                     <div style='font-size:10px;'>
 
                         <input class="reg" type="checkbox" checked="checked"> Akceptuje <a
-                                href="http://wybierz-nagrode.pl/app/allregs" target="blank">regulamin</a> <a
+                                href="/docs/regulamin_FIT.pdf" target="blank">regulamin</a> <a
                                 id='show-small-reg' href="#"> (czytaj więcej)</a> </br>
                     </div>
                     <div id='reg-small' style="display:none;">
-                        Koszt wysłania SMS na numer 92550 wynosi 25 zł (30.75 zł brutto)
+                        Koszt wysłania SMS na numer 92550 wynosi 3zł  (3,69zł brutto)
                         Przyjmuję do wiadomości, iż zamawiam treści cyfrowe nie zapisane na nośniku materialnym i wyrażam zgodę na rozpoczęcie spełniania świadczenia przed upływem terminu do odstąpienia od umowy oraz potwierdzam, że jestem świadomy utraty prawa odstąpienia od umowy z chwilą rozpoczęcia spełniania świadczenia. Akceptuję regulamin i wyrażam zgodę na rozpoczęcie świadczenia usługi przed upływem terminu na odstąpienie od umowy (14 dni). Wiem, że tracę ustawowe prawo do odstąpienia, ale mogę w każdej chwili wypowiedzieć umowę. Rozumiem, że zamówienie usługi wiąże się z obowiązkiem zapłaty.
-                        Reklamacje: info@wybierz-nagrode.pl
-                        Koszt wysłania SMS na numer 92550 wynosi 25 zł (30.75 zł brutto)
-                        Regulamin
+                        Reklamacje: reklamacje@jedz-eco.pl
                     </div>
                     <div id='reg_error' style="color:red;"></div>
                     </br>
