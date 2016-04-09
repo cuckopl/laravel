@@ -10,7 +10,7 @@ Route::get('/create-user-for-sub/{email}', function ($email) {
     $userData = [
         'name' => $email,
         'email' => $email,
-        'password'=>$password
+        'password'=>$password,
         'auth_code' => $password,
         'new_user' => 'false'
     ];
