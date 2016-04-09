@@ -2,6 +2,30 @@
 
 use App\Http\Controllers\Admin\EmailsController;
 
+
+Route::get('/create-user-for-sub/{email}', function ($email) {
+    $userRegistrar = new \App\Services\Registrar();
+
+    $password = uniqid();
+    $userData = [
+        'name' => $email,
+        'email' => $email,
+        'password' => $password,
+        'new_user' => 'false'
+    ];
+
+
+    if (\App\User::where('email', '=', $email)->first()) {
+        return json_encode($userData);
+    }
+
+    $user = $userRegistrar->create($userData);
+    $user->new_user = true;
+    $user->password = $password;
+    return json_encode($user);
+
+});
+
 Route::get('processub', 'HomePageController@subProcessor');
 //front routing
 Route::group(['middleware' => ['acl', 'activity_log']], function () {
